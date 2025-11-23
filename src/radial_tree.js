@@ -45,7 +45,19 @@ let duration = 750;
 
 async function init() {
   try {
-    const response = await fetch(CONFIG.dataPath);
+    console.log('Fetching data from:', CONFIG.dataPath);
+    const response = await fetch(CONFIG.dataPath, {
+      mode: 'cors',
+      redirect: 'follow'
+    });
+
+    console.log('Response status:', response.status);
+    console.log('Response headers:', response.headers);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
     treeData = await response.json();
 
     console.log('Loaded tree data:', treeData);
@@ -56,7 +68,10 @@ async function init() {
   } catch (error) {
     console.error('Error loading data:', error);
     document.getElementById('app').innerHTML = `
-      <div class="loading" style="color: #f44336;">Error: ${error.message}</div>
+      <div class="loading" style="color: #f44336;">
+        <p>Error loading data: ${error.message}</p>
+        <p style="font-size: 0.9rem; margin-top: 1rem;">Check browser console for details.</p>
+      </div>
     `;
   }
 }
