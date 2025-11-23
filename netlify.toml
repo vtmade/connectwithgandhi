@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "npm ci && npm run build && cp dist/radial_tree.html dist/index.html"
+  command = "npm ci && npm run build && cp dist/radial_tree.html dist/index.html && mkdir -p dist/data && curl -L -o dist/data/radial_tree.json https://github.com/vtmade/connectwithgandhi/releases/download/v1.0.0/radial_tree.json"
 
 [build.environment]
   NODE_VERSION = "18"
