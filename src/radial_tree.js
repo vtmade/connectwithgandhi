@@ -6,7 +6,7 @@
 import * as d3 from 'd3';
 
 const CONFIG = {
-  dataPath: '/data/radial_tree.json',
+  dataPath: 'https://github.com/vtmade/connectwithgandhi/releases/download/v1.0.0/radial_tree.json',
   width: null,
   height: null,
   colors: {
