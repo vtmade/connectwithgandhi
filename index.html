@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gandhi Knowledge Graph - Interactive Visualization</title>
+  <meta name="description" content="Explore 45,458 documents from Mahatma Gandhi's collected works through an interactive knowledge graph">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loading-content">
+      <h1>Gandhi Knowledge Graph</h1>
+      <div class="loading-spinner"></div>
+      <p class="loading-text">Loading 45,458 documents...</p>
+    </div>
+  </div>
+
+  <!-- Main App Container -->
+  <div id="app" class="hidden">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-content">
+        <h1 class="app-title">Gandhi Knowledge Graph</h1>
+        <p class="app-subtitle">Exploring 45 Years of Writings (1884-1929)</p>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search documents, themes, people, events..."
+          autocomplete="off"
+        />
+        <div id="search-results" class="search-results hidden"></div>
+      </div>
+
+      <!-- Stats -->
+      <div class="header-stats">
+        <div class="stat">
+          <span class="stat-value" id="doc-count">45,458</span>
+          <span class="stat-label">Documents</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="node-count">-</span>
+          <span class="stat-label">Nodes</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="edge-count">-</span>
+          <span class="stat-label">Connections</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Sidebar (Filters) -->
+      <aside id="sidebar" class="sidebar">
+        <div class="sidebar-section">
+          <h3>Filter by Type</h3>
+          <div class="filter-group" id="type-filters">
+            <label><input type="checkbox" value="theme" checked> Themes</label>
+            <label><input type="checkbox" value="person" checked> People</label>
+            <label><input type="checkbox" value="event" checked> Events</label>
+            <label><input type="checkbox" value="period" checked> Time Periods</label>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>Timeline</h3>
+          <div class="timeline-container">
+            <input
+              type="range"
+              id="timeline-slider"
+              min="1884"
+              max="1929"
+              value="1929"
+              step="1"
+            />
+            <div class="timeline-labels">
+              <span>1884</span>
+              <span id="current-year">1929</span>
+              <span>1929</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>Theme Categories</h3>
+          <div class="legend">
+            <div class="legend-item">
+              <span class="legend-color" style="background: #8B5CF6;"></span>
+              <span>Spiritual & Philosophical</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color" style="background: #EF4444;"></span>
+              <span>Political & Freedom</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color" style="background: #10B981;"></span>
+              <span>Social Reform</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color" style="background: #F59E0B;"></span>
+              <span>Economic Self-Reliance</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color" style="background: #06B6D4;"></span>
+              <span>Personal Conduct</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>Legend</h3>
+          <div class="legend">
+            <div class="legend-item">
+              <span class="legend-color" style="background: #10B981;"></span>
+              <span>Themes</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color" style="background: #06B6D4;"></span>
+              <span>People</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color" style="background: #EF4444;"></span>
+              <span>Events</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color" style="background: #A855F7;"></span>
+              <span>Time Periods</span>
+            </div>
+          </div>
+        </div>
+
+        <button id="reset-view" class="btn-secondary">Reset View</button>
+      </aside>
+
+      <!-- Graph Canvas -->
+      <div id="graph-container" class="graph-container">
+        <svg id="graph-svg"></svg>
+
+        <!-- Graph Controls -->
+        <div class="graph-controls">
+          <button id="zoom-in" title="Zoom In">+</button>
+          <button id="zoom-out" title="Zoom Out">−</button>
+          <button id="zoom-fit" title="Fit to Screen">⊡</button>
+        </div>
+      </div>
+
+      <!-- Reading Panel (slides in from right) -->
+      <aside id="reading-panel" class="reading-panel hidden">
+        <button id="close-panel" class="close-panel">&times;</button>
+        <div id="panel-content" class="panel-content">
+          <!-- Dynamic content loaded here -->
+        </div>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>
+        Data: The Collected Works of Mahatma Gandhi (CWMG) |
+        <a href="https://github.com" target="_blank">GitHub</a> |
+        <a href="#about">About</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

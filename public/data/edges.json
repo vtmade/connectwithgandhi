@@ -1,0 +1,6666 @@
+[
+  {
+    "id": "edge_0",
+    "source": "doc_0",
+    "target": "theme_prayer",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_1",
+    "source": "doc_0",
+    "target": "theme_swaraj",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_2",
+    "source": "doc_20",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_3",
+    "source": "doc_20",
+    "target": "theme_religion",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_4",
+    "source": "doc_20",
+    "target": "theme_untouchability",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_5",
+    "source": "doc_23",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.12
+  },
+  {
+    "id": "edge_6",
+    "source": "doc_25",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_7",
+    "source": "doc_28",
+    "target": "theme_salt",
+    "type": "DISCUSSES",
+    "weight": 0.21
+  },
+  {
+    "id": "edge_8",
+    "source": "doc_28",
+    "target": "theme_health",
+    "type": "DISCUSSES",
+    "weight": 0.12
+  },
+  {
+    "id": "edge_9",
+    "source": "doc_28",
+    "target": "theme_diet",
+    "type": "DISCUSSES",
+    "weight": 0.54
+  },
+  {
+    "id": "edge_10",
+    "source": "doc_29",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_11",
+    "source": "doc_30",
+    "target": "theme_education",
+    "type": "DISCUSSES",
+    "weight": 0.21
+  },
+  {
+    "id": "edge_12",
+    "source": "doc_31",
+    "target": "theme_nonviolence",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_13",
+    "source": "doc_31",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.13
+  },
+  {
+    "id": "edge_14",
+    "source": "doc_31",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.12
+  },
+  {
+    "id": "edge_15",
+    "source": "doc_31",
+    "target": "theme_economic",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_16",
+    "source": "doc_33",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_17",
+    "source": "doc_33",
+    "target": "theme_swaraj",
+    "type": "DISCUSSES",
+    "weight": 0.19
+  },
+  {
+    "id": "edge_18",
+    "source": "doc_33",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_19",
+    "source": "doc_33",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.2
+  },
+  {
+    "id": "edge_20",
+    "source": "doc_33",
+    "target": "theme_swadeshi",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_21",
+    "source": "doc_33",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.1
+  },
+  {
+    "id": "edge_22",
+    "source": "doc_35",
+    "target": "theme_swaraj",
+    "type": "DISCUSSES",
+    "weight": 0.14
+  },
+  {
+    "id": "edge_23",
+    "source": "doc_35",
+    "target": "theme_british",
+    "type": "DISCUSSES",
+    "weight": 0.1
+  },
+  {
+    "id": "edge_24",
+    "source": "doc_35",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.19
+  },
+  {
+    "id": "edge_25",
+    "source": "doc_35",
+    "target": "theme_education",
+    "type": "DISCUSSES",
+    "weight": 0.2
+  },
+  {
+    "id": "edge_26",
+    "source": "doc_35",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.27
+  },
+  {
+    "id": "edge_27",
+    "source": "doc_35",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.14
+  },
+  {
+    "id": "edge_28",
+    "source": "doc_35",
+    "target": "theme_service",
+    "type": "DISCUSSES",
+    "weight": 0.1
+  },
+  {
+    "id": "edge_29",
+    "source": "doc_37",
+    "target": "theme_prayer",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_30",
+    "source": "doc_37",
+    "target": "theme_untouchability",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_31",
+    "source": "doc_37",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_32",
+    "source": "doc_37",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_33",
+    "source": "doc_38",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_34",
+    "source": "doc_39",
+    "target": "theme_untouchability",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_35",
+    "source": "doc_39",
+    "target": "theme_women",
+    "type": "DISCUSSES",
+    "weight": 0.13
+  },
+  {
+    "id": "edge_36",
+    "source": "doc_39",
+    "target": "theme_diet",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_37",
+    "source": "doc_42",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_38",
+    "source": "doc_43",
+    "target": "theme_swaraj",
+    "type": "DISCUSSES",
+    "weight": 0.1
+  },
+  {
+    "id": "edge_39",
+    "source": "doc_43",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_40",
+    "source": "doc_43",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.16
+  },
+  {
+    "id": "edge_41",
+    "source": "doc_44",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_42",
+    "source": "doc_44",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.19
+  },
+  {
+    "id": "edge_43",
+    "source": "doc_48",
+    "target": "theme_self_discipline",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_44",
+    "source": "doc_49",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.1
+  },
+  {
+    "id": "edge_45",
+    "source": "doc_49",
+    "target": "theme_swaraj",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_46",
+    "source": "doc_53",
+    "target": "theme_british",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_47",
+    "source": "doc_53",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_48",
+    "source": "doc_53",
+    "target": "theme_women",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_49",
+    "source": "doc_53",
+    "target": "theme_education",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_50",
+    "source": "doc_53",
+    "target": "theme_village",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_51",
+    "source": "doc_53",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.18
+  },
+  {
+    "id": "edge_52",
+    "source": "doc_55",
+    "target": "theme_education",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_53",
+    "source": "doc_55",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_54",
+    "source": "doc_57",
+    "target": "theme_women",
+    "type": "DISCUSSES",
+    "weight": 0.12
+  },
+  {
+    "id": "edge_55",
+    "source": "doc_58",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_56",
+    "source": "doc_81",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.13
+  },
+  {
+    "id": "edge_57",
+    "source": "doc_81",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.14
+  },
+  {
+    "id": "edge_58",
+    "source": "doc_81",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_59",
+    "source": "doc_81",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.18
+  },
+  {
+    "id": "edge_60",
+    "source": "doc_81",
+    "target": "theme_swadeshi",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_61",
+    "source": "doc_81",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.14
+  },
+  {
+    "id": "edge_62",
+    "source": "doc_82",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_63",
+    "source": "doc_82",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_64",
+    "source": "doc_82",
+    "target": "theme_religion",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_65",
+    "source": "doc_82",
+    "target": "theme_satyagraha",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_66",
+    "source": "doc_82",
+    "target": "theme_salt",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_67",
+    "source": "doc_82",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_68",
+    "source": "doc_82",
+    "target": "theme_leadership",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_69",
+    "source": "doc_82",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.13
+  },
+  {
+    "id": "edge_70",
+    "source": "doc_82",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_71",
+    "source": "doc_83",
+    "target": "theme_british",
+    "type": "DISCUSSES",
+    "weight": 0.14
+  },
+  {
+    "id": "edge_72",
+    "source": "doc_85",
+    "target": "theme_village",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_73",
+    "source": "doc_85",
+    "target": "theme_swadeshi",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_74",
+    "source": "doc_85",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_75",
+    "source": "doc_94",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_76",
+    "source": "doc_94",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_77",
+    "source": "doc_97",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.12
+  },
+  {
+    "id": "edge_78",
+    "source": "doc_97",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.17
+  },
+  {
+    "id": "edge_79",
+    "source": "doc_97",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.16
+  },
+  {
+    "id": "edge_80",
+    "source": "doc_100",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_81",
+    "source": "doc_104",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_82",
+    "source": "doc_106",
+    "target": "theme_british",
+    "type": "DISCUSSES",
+    "weight": 0.29
+  },
+  {
+    "id": "edge_83",
+    "source": "doc_107",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.22
+  },
+  {
+    "id": "edge_84",
+    "source": "doc_107",
+    "target": "theme_economic",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_85",
+    "source": "doc_112",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_86",
+    "source": "doc_114",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_87",
+    "source": "doc_114",
+    "target": "theme_nonviolence",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_88",
+    "source": "doc_114",
+    "target": "theme_swaraj",
+    "type": "DISCUSSES",
+    "weight": 0.17
+  },
+  {
+    "id": "edge_89",
+    "source": "doc_114",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_90",
+    "source": "doc_114",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_91",
+    "source": "doc_114",
+    "target": "theme_service",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_92",
+    "source": "doc_115",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_93",
+    "source": "doc_120",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_94",
+    "source": "doc_120",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.18
+  },
+  {
+    "id": "edge_95",
+    "source": "doc_120",
+    "target": "theme_communal",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_96",
+    "source": "doc_123",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_97",
+    "source": "doc_123",
+    "target": "theme_untouchability",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_98",
+    "source": "doc_124",
+    "target": "theme_british",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_99",
+    "source": "doc_126",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.14
+  },
+  {
+    "id": "edge_100",
+    "source": "doc_126",
+    "target": "theme_british",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_101",
+    "source": "doc_126",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_102",
+    "source": "doc_126",
+    "target": "theme_untouchability",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_103",
+    "source": "doc_127",
+    "target": "theme_swaraj",
+    "type": "DISCUSSES",
+    "weight": 0.18
+  },
+  {
+    "id": "edge_104",
+    "source": "doc_127",
+    "target": "theme_british",
+    "type": "DISCUSSES",
+    "weight": 0.16
+  },
+  {
+    "id": "edge_105",
+    "source": "doc_127",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.59
+  },
+  {
+    "id": "edge_106",
+    "source": "doc_127",
+    "target": "theme_leadership",
+    "type": "DISCUSSES",
+    "weight": 0.19
+  },
+  {
+    "id": "edge_107",
+    "source": "doc_127",
+    "target": "theme_village",
+    "type": "DISCUSSES",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_108",
+    "source": "doc_127",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.22
+  },
+  {
+    "id": "edge_109",
+    "source": "doc_128",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_110",
+    "source": "doc_128",
+    "target": "theme_british",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_111",
+    "source": "doc_128",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_112",
+    "source": "doc_129",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_113",
+    "source": "doc_132",
+    "target": "theme_swaraj",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_114",
+    "source": "doc_136",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_115",
+    "source": "doc_136",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_116",
+    "source": "doc_139",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_117",
+    "source": "doc_145",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.14
+  },
+  {
+    "id": "edge_118",
+    "source": "doc_145",
+    "target": "theme_satyagraha",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_119",
+    "source": "doc_145",
+    "target": "theme_british",
+    "type": "DISCUSSES",
+    "weight": 0.1
+  },
+  {
+    "id": "edge_120",
+    "source": "doc_145",
+    "target": "theme_salt",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_121",
+    "source": "doc_150",
+    "target": "theme_women",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_122",
+    "source": "doc_150",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_123",
+    "source": "doc_150",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.1
+  },
+  {
+    "id": "edge_124",
+    "source": "doc_161",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.14
+  },
+  {
+    "id": "edge_125",
+    "source": "doc_161",
+    "target": "theme_religion",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_126",
+    "source": "doc_162",
+    "target": "theme_british",
+    "type": "DISCUSSES",
+    "weight": 0.18
+  },
+  {
+    "id": "edge_127",
+    "source": "doc_162",
+    "target": "theme_education",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_128",
+    "source": "doc_163",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_129",
+    "source": "doc_163",
+    "target": "theme_religion",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_130",
+    "source": "doc_164",
+    "target": "theme_prayer",
+    "type": "DISCUSSES",
+    "weight": 0.1
+  },
+  {
+    "id": "edge_131",
+    "source": "doc_166",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_132",
+    "source": "doc_166",
+    "target": "theme_satyagraha",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_133",
+    "source": "doc_166",
+    "target": "theme_salt",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_134",
+    "source": "doc_169",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.1
+  },
+  {
+    "id": "edge_135",
+    "source": "doc_169",
+    "target": "theme_prayer",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_136",
+    "source": "doc_169",
+    "target": "theme_religion",
+    "type": "DISCUSSES",
+    "weight": 0.1
+  },
+  {
+    "id": "edge_137",
+    "source": "doc_170",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_138",
+    "source": "doc_171",
+    "target": "theme_nonviolence",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_139",
+    "source": "doc_171",
+    "target": "theme_women",
+    "type": "DISCUSSES",
+    "weight": 0.26
+  },
+  {
+    "id": "edge_140",
+    "source": "doc_171",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_141",
+    "source": "doc_171",
+    "target": "theme_nature",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_142",
+    "source": "doc_172",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_143",
+    "source": "doc_173",
+    "target": "theme_education",
+    "type": "DISCUSSES",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_144",
+    "source": "doc_173",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_145",
+    "source": "doc_174",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.27
+  },
+  {
+    "id": "edge_146",
+    "source": "doc_175",
+    "target": "theme_fasting",
+    "type": "DISCUSSES",
+    "weight": 0.13
+  },
+  {
+    "id": "edge_147",
+    "source": "doc_176",
+    "target": "theme_swaraj",
+    "type": "DISCUSSES",
+    "weight": 0.17
+  },
+  {
+    "id": "edge_148",
+    "source": "doc_176",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_149",
+    "source": "doc_176",
+    "target": "theme_women",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_150",
+    "source": "doc_176",
+    "target": "theme_education",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_151",
+    "source": "doc_176",
+    "target": "theme_village",
+    "type": "DISCUSSES",
+    "weight": 0.22
+  },
+  {
+    "id": "edge_152",
+    "source": "doc_176",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.49
+  },
+  {
+    "id": "edge_153",
+    "source": "doc_176",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_154",
+    "source": "doc_176",
+    "target": "theme_economic",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_155",
+    "source": "doc_176",
+    "target": "theme_service",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_156",
+    "source": "doc_177",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_157",
+    "source": "doc_180",
+    "target": "theme_village",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_158",
+    "source": "doc_181",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_159",
+    "source": "doc_181",
+    "target": "theme_swaraj",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_160",
+    "source": "doc_181",
+    "target": "theme_untouchability",
+    "type": "DISCUSSES",
+    "weight": 0.18
+  },
+  {
+    "id": "edge_161",
+    "source": "doc_181",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.18
+  },
+  {
+    "id": "edge_162",
+    "source": "doc_181",
+    "target": "theme_service",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_163",
+    "source": "doc_184",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_164",
+    "source": "doc_185",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_165",
+    "source": "doc_185",
+    "target": "theme_hindu_muslim",
+    "type": "DISCUSSES",
+    "weight": 0.13
+  },
+  {
+    "id": "edge_166",
+    "source": "doc_186",
+    "target": "theme_prayer",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_167",
+    "source": "doc_187",
+    "target": "theme_village",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_168",
+    "source": "doc_188",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_169",
+    "source": "doc_188",
+    "target": "theme_economic",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_170",
+    "source": "doc_191",
+    "target": "theme_truth",
+    "type": "DISCUSSES",
+    "weight": 0.12
+  },
+  {
+    "id": "edge_171",
+    "source": "doc_191",
+    "target": "theme_religion",
+    "type": "DISCUSSES",
+    "weight": 0.16
+  },
+  {
+    "id": "edge_172",
+    "source": "doc_192",
+    "target": "theme_women",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_173",
+    "source": "doc_192",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_174",
+    "source": "doc_192",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.17
+  },
+  {
+    "id": "edge_175",
+    "source": "doc_193",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.06
+  },
+  {
+    "id": "edge_176",
+    "source": "doc_193",
+    "target": "theme_spinning",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_177",
+    "source": "doc_194",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_178",
+    "source": "doc_195",
+    "target": "theme_nonviolence",
+    "type": "DISCUSSES",
+    "weight": 0.07
+  },
+  {
+    "id": "edge_179",
+    "source": "doc_195",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.16
+  },
+  {
+    "id": "edge_180",
+    "source": "doc_196",
+    "target": "theme_prayer",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_181",
+    "source": "doc_196",
+    "target": "theme_women",
+    "type": "DISCUSSES",
+    "weight": 0.14
+  },
+  {
+    "id": "edge_182",
+    "source": "doc_197",
+    "target": "theme_congress",
+    "type": "DISCUSSES",
+    "weight": 0.09
+  },
+  {
+    "id": "edge_183",
+    "source": "doc_199",
+    "target": "theme_prayer",
+    "type": "DISCUSSES",
+    "weight": 0.11
+  },
+  {
+    "id": "edge_184",
+    "source": "doc_199",
+    "target": "theme_religion",
+    "type": "DISCUSSES",
+    "weight": 0.14
+  },
+  {
+    "id": "edge_185",
+    "source": "doc_199",
+    "target": "theme_labor",
+    "type": "DISCUSSES",
+    "weight": 0.08
+  },
+  {
+    "id": "edge_186",
+    "source": "doc_18",
+    "target": "person_7",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_187",
+    "source": "doc_19",
+    "target": "person_3",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_188",
+    "source": "doc_19",
+    "target": "person_16",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_189",
+    "source": "doc_25",
+    "target": "person_17",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_190",
+    "source": "doc_27",
+    "target": "person_0",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_191",
+    "source": "doc_28",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_192",
+    "source": "doc_31",
+    "target": "person_5",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_193",
+    "source": "doc_31",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_194",
+    "source": "doc_33",
+    "target": "person_0",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_195",
+    "source": "doc_33",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_196",
+    "source": "doc_34",
+    "target": "person_9",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_197",
+    "source": "doc_34",
+    "target": "person_18",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_198",
+    "source": "doc_36",
+    "target": "person_10",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_199",
+    "source": "doc_36",
+    "target": "person_19",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_200",
+    "source": "doc_36",
+    "target": "person_20",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_201",
+    "source": "doc_36",
+    "target": "person_21",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_202",
+    "source": "doc_36",
+    "target": "person_22",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_203",
+    "source": "doc_36",
+    "target": "person_23",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_204",
+    "source": "doc_38",
+    "target": "person_24",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_205",
+    "source": "doc_41",
+    "target": "person_25",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_206",
+    "source": "doc_42",
+    "target": "person_26",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_207",
+    "source": "doc_43",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_208",
+    "source": "doc_43",
+    "target": "person_13",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_209",
+    "source": "doc_44",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_210",
+    "source": "doc_45",
+    "target": "person_5",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_211",
+    "source": "doc_48",
+    "target": "person_27",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_212",
+    "source": "doc_49",
+    "target": "person_28",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_213",
+    "source": "doc_49",
+    "target": "person_29",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_214",
+    "source": "doc_50",
+    "target": "person_5",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_215",
+    "source": "doc_53",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_216",
+    "source": "doc_55",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_217",
+    "source": "doc_56",
+    "target": "person_6",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_218",
+    "source": "doc_56",
+    "target": "person_14",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_219",
+    "source": "doc_56",
+    "target": "person_26",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_220",
+    "source": "doc_68",
+    "target": "person_24",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_221",
+    "source": "doc_74",
+    "target": "person_7",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_222",
+    "source": "doc_75",
+    "target": "person_28",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_223",
+    "source": "doc_79",
+    "target": "person_7",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_224",
+    "source": "doc_80",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_225",
+    "source": "doc_80",
+    "target": "person_9",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_226",
+    "source": "doc_80",
+    "target": "person_18",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_227",
+    "source": "doc_81",
+    "target": "person_0",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_228",
+    "source": "doc_81",
+    "target": "person_3",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_229",
+    "source": "doc_82",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_230",
+    "source": "doc_83",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_231",
+    "source": "doc_83",
+    "target": "person_4",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_232",
+    "source": "doc_83",
+    "target": "person_10",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_233",
+    "source": "doc_83",
+    "target": "person_27",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_234",
+    "source": "doc_84",
+    "target": "person_11",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_235",
+    "source": "doc_93",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_236",
+    "source": "doc_93",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_237",
+    "source": "doc_94",
+    "target": "person_11",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_238",
+    "source": "doc_97",
+    "target": "person_0",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_239",
+    "source": "doc_97",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_240",
+    "source": "doc_99",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_241",
+    "source": "doc_102",
+    "target": "person_5",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_242",
+    "source": "doc_105",
+    "target": "person_0",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_243",
+    "source": "doc_106",
+    "target": "person_4",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_244",
+    "source": "doc_106",
+    "target": "person_10",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_245",
+    "source": "doc_106",
+    "target": "person_27",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_246",
+    "source": "doc_107",
+    "target": "person_11",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_247",
+    "source": "doc_109",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_248",
+    "source": "doc_110",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_249",
+    "source": "doc_111",
+    "target": "person_12",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_250",
+    "source": "doc_112",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_251",
+    "source": "doc_114",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_252",
+    "source": "doc_114",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_253",
+    "source": "doc_115",
+    "target": "person_6",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_254",
+    "source": "doc_118",
+    "target": "person_6",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_255",
+    "source": "doc_120",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_256",
+    "source": "doc_120",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_257",
+    "source": "doc_121",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_258",
+    "source": "doc_121",
+    "target": "person_9",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_259",
+    "source": "doc_122",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_260",
+    "source": "doc_122",
+    "target": "person_3",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_261",
+    "source": "doc_124",
+    "target": "person_23",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_262",
+    "source": "doc_124",
+    "target": "person_27",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_263",
+    "source": "doc_125",
+    "target": "person_0",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_264",
+    "source": "doc_125",
+    "target": "person_3",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_265",
+    "source": "doc_125",
+    "target": "person_13",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_266",
+    "source": "doc_126",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_267",
+    "source": "doc_126",
+    "target": "person_5",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_268",
+    "source": "doc_126",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_269",
+    "source": "doc_127",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_270",
+    "source": "doc_128",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_271",
+    "source": "doc_128",
+    "target": "person_27",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_272",
+    "source": "doc_130",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_273",
+    "source": "doc_130",
+    "target": "person_13",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_274",
+    "source": "doc_132",
+    "target": "person_0",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_275",
+    "source": "doc_134",
+    "target": "person_14",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_276",
+    "source": "doc_136",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_277",
+    "source": "doc_136",
+    "target": "person_13",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_278",
+    "source": "doc_139",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_279",
+    "source": "doc_145",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_280",
+    "source": "doc_145",
+    "target": "person_5",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_281",
+    "source": "doc_145",
+    "target": "person_27",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_282",
+    "source": "doc_146",
+    "target": "person_6",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_283",
+    "source": "doc_147",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_284",
+    "source": "doc_151",
+    "target": "person_14",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_285",
+    "source": "doc_152",
+    "target": "person_14",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_286",
+    "source": "doc_159",
+    "target": "person_14",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_287",
+    "source": "doc_161",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_288",
+    "source": "doc_162",
+    "target": "person_0",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_289",
+    "source": "doc_162",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_290",
+    "source": "doc_162",
+    "target": "person_5",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_291",
+    "source": "doc_166",
+    "target": "person_24",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_292",
+    "source": "doc_166",
+    "target": "person_29",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_293",
+    "source": "doc_174",
+    "target": "person_14",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_294",
+    "source": "doc_176",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_295",
+    "source": "doc_176",
+    "target": "person_3",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_296",
+    "source": "doc_176",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_297",
+    "source": "doc_176",
+    "target": "person_14",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_298",
+    "source": "doc_176",
+    "target": "person_27",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_299",
+    "source": "doc_177",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_300",
+    "source": "doc_177",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_301",
+    "source": "doc_185",
+    "target": "person_0",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_302",
+    "source": "doc_189",
+    "target": "person_15",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_303",
+    "source": "doc_189",
+    "target": "person_27",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_304",
+    "source": "doc_190",
+    "target": "person_8",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_305",
+    "source": "doc_194",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_306",
+    "source": "doc_195",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_307",
+    "source": "doc_197",
+    "target": "person_2",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_308",
+    "source": "doc_199",
+    "target": "person_1",
+    "type": "MENTIONS",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_309",
+    "source": "doc_0",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_310",
+    "source": "doc_1",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_311",
+    "source": "doc_2",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_312",
+    "source": "doc_3",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_313",
+    "source": "doc_4",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_314",
+    "source": "doc_5",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_315",
+    "source": "doc_6",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_316",
+    "source": "doc_7",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_317",
+    "source": "doc_8",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_318",
+    "source": "doc_9",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_319",
+    "source": "doc_10",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_320",
+    "source": "doc_11",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_321",
+    "source": "doc_12",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_322",
+    "source": "doc_13",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_323",
+    "source": "doc_14",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_324",
+    "source": "doc_15",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_325",
+    "source": "doc_16",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_326",
+    "source": "doc_17",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_327",
+    "source": "doc_18",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_328",
+    "source": "doc_19",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_329",
+    "source": "doc_20",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_330",
+    "source": "doc_21",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_331",
+    "source": "doc_22",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_332",
+    "source": "doc_23",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_333",
+    "source": "doc_24",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_334",
+    "source": "doc_25",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_335",
+    "source": "doc_26",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_336",
+    "source": "doc_27",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_337",
+    "source": "doc_28",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_338",
+    "source": "doc_29",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_339",
+    "source": "doc_30",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_340",
+    "source": "doc_31",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_341",
+    "source": "doc_32",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_342",
+    "source": "doc_33",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_343",
+    "source": "doc_34",
+    "target": "period_1900",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_344",
+    "source": "doc_35",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_345",
+    "source": "doc_36",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_346",
+    "source": "doc_37",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_347",
+    "source": "doc_38",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_348",
+    "source": "doc_39",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_349",
+    "source": "doc_40",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_350",
+    "source": "doc_41",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_351",
+    "source": "doc_42",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_352",
+    "source": "doc_43",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_353",
+    "source": "doc_44",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_354",
+    "source": "doc_45",
+    "target": "period_1900",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_355",
+    "source": "doc_46",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_356",
+    "source": "doc_47",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_357",
+    "source": "doc_48",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_358",
+    "source": "doc_49",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_359",
+    "source": "doc_50",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_360",
+    "source": "doc_51",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_361",
+    "source": "doc_52",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_362",
+    "source": "doc_53",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_363",
+    "source": "doc_54",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_364",
+    "source": "doc_55",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_365",
+    "source": "doc_56",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_366",
+    "source": "doc_57",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_367",
+    "source": "doc_58",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_368",
+    "source": "doc_59",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_369",
+    "source": "doc_60",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_370",
+    "source": "doc_61",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_371",
+    "source": "doc_62",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_372",
+    "source": "doc_63",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_373",
+    "source": "doc_64",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_374",
+    "source": "doc_65",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_375",
+    "source": "doc_66",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_376",
+    "source": "doc_67",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_377",
+    "source": "doc_68",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_378",
+    "source": "doc_69",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_379",
+    "source": "doc_70",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_380",
+    "source": "doc_71",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_381",
+    "source": "doc_72",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_382",
+    "source": "doc_73",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_383",
+    "source": "doc_74",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_384",
+    "source": "doc_75",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_385",
+    "source": "doc_76",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_386",
+    "source": "doc_77",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_387",
+    "source": "doc_78",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_388",
+    "source": "doc_79",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_389",
+    "source": "doc_80",
+    "target": "period_1900",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_390",
+    "source": "doc_81",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_391",
+    "source": "doc_82",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_392",
+    "source": "doc_83",
+    "target": "period_1900",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_393",
+    "source": "doc_84",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_394",
+    "source": "doc_85",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_395",
+    "source": "doc_86",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_396",
+    "source": "doc_87",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_397",
+    "source": "doc_88",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_398",
+    "source": "doc_89",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_399",
+    "source": "doc_90",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_400",
+    "source": "doc_92",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_401",
+    "source": "doc_93",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_402",
+    "source": "doc_94",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_403",
+    "source": "doc_95",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_404",
+    "source": "doc_96",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_405",
+    "source": "doc_97",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_406",
+    "source": "doc_98",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_407",
+    "source": "doc_99",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_408",
+    "source": "doc_100",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_409",
+    "source": "doc_101",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_410",
+    "source": "doc_102",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_411",
+    "source": "doc_103",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_412",
+    "source": "doc_104",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_413",
+    "source": "doc_105",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_414",
+    "source": "doc_106",
+    "target": "period_1900",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_415",
+    "source": "doc_107",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_416",
+    "source": "doc_108",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_417",
+    "source": "doc_109",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_418",
+    "source": "doc_110",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_419",
+    "source": "doc_111",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_420",
+    "source": "doc_112",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_421",
+    "source": "doc_113",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_422",
+    "source": "doc_114",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_423",
+    "source": "doc_115",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_424",
+    "source": "doc_116",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_425",
+    "source": "doc_117",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_426",
+    "source": "doc_118",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_427",
+    "source": "doc_119",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_428",
+    "source": "doc_120",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_429",
+    "source": "doc_121",
+    "target": "period_1900",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_430",
+    "source": "doc_122",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_431",
+    "source": "doc_123",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_432",
+    "source": "doc_124",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_433",
+    "source": "doc_125",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_434",
+    "source": "doc_126",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_435",
+    "source": "doc_127",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_436",
+    "source": "doc_128",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_437",
+    "source": "doc_129",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_438",
+    "source": "doc_130",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_439",
+    "source": "doc_131",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_440",
+    "source": "doc_132",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_441",
+    "source": "doc_133",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_442",
+    "source": "doc_134",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_443",
+    "source": "doc_135",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_444",
+    "source": "doc_136",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_445",
+    "source": "doc_137",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_446",
+    "source": "doc_138",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_447",
+    "source": "doc_139",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_448",
+    "source": "doc_140",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_449",
+    "source": "doc_141",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_450",
+    "source": "doc_142",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_451",
+    "source": "doc_143",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_452",
+    "source": "doc_144",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_453",
+    "source": "doc_145",
+    "target": "period_1910",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_454",
+    "source": "doc_146",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_455",
+    "source": "doc_147",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_456",
+    "source": "doc_148",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_457",
+    "source": "doc_149",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_458",
+    "source": "doc_150",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_459",
+    "source": "doc_151",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_460",
+    "source": "doc_152",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_461",
+    "source": "doc_153",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_462",
+    "source": "doc_154",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_463",
+    "source": "doc_155",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_464",
+    "source": "doc_156",
+    "target": "period_1900",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_465",
+    "source": "doc_157",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_466",
+    "source": "doc_158",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_467",
+    "source": "doc_159",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_468",
+    "source": "doc_160",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_469",
+    "source": "doc_161",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_470",
+    "source": "doc_162",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_471",
+    "source": "doc_163",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_472",
+    "source": "doc_164",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_473",
+    "source": "doc_165",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_474",
+    "source": "doc_166",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_475",
+    "source": "doc_167",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_476",
+    "source": "doc_168",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_477",
+    "source": "doc_169",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_478",
+    "source": "doc_170",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_479",
+    "source": "doc_171",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_480",
+    "source": "doc_172",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_481",
+    "source": "doc_173",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_482",
+    "source": "doc_174",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_483",
+    "source": "doc_175",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_484",
+    "source": "doc_176",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_485",
+    "source": "doc_177",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_486",
+    "source": "doc_178",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_487",
+    "source": "doc_179",
+    "target": "period_1900",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_488",
+    "source": "doc_180",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_489",
+    "source": "doc_181",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_490",
+    "source": "doc_182",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_491",
+    "source": "doc_183",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_492",
+    "source": "doc_184",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_493",
+    "source": "doc_185",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_494",
+    "source": "doc_186",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_495",
+    "source": "doc_187",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_496",
+    "source": "doc_188",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_497",
+    "source": "doc_189",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_498",
+    "source": "doc_190",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_499",
+    "source": "doc_191",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_500",
+    "source": "doc_192",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_501",
+    "source": "doc_193",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_502",
+    "source": "doc_194",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_503",
+    "source": "doc_195",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_504",
+    "source": "doc_196",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_505",
+    "source": "doc_197",
+    "target": "period_1940",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_506",
+    "source": "doc_198",
+    "target": "period_1930",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_507",
+    "source": "doc_199",
+    "target": "period_1920",
+    "type": "WRITTEN_IN",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_508",
+    "source": "doc_19",
+    "target": "event_champaran",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_509",
+    "source": "doc_27",
+    "target": "event_khilafat",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_510",
+    "source": "doc_27",
+    "target": "event_jallianwala",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_511",
+    "source": "doc_43",
+    "target": "event_roundtable1",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_512",
+    "source": "doc_59",
+    "target": "event_khilafat",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_513",
+    "source": "doc_61",
+    "target": "event_jallianwala",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_514",
+    "source": "doc_82",
+    "target": "event_khilafat",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_515",
+    "source": "doc_114",
+    "target": "event_saltmarch",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_516",
+    "source": "doc_124",
+    "target": "event_champaran",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_517",
+    "source": "doc_125",
+    "target": "event_roundtable1",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_518",
+    "source": "doc_130",
+    "target": "event_roundtable1",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_519",
+    "source": "doc_132",
+    "target": "event_khilafat",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_520",
+    "source": "doc_136",
+    "target": "event_roundtable1",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_521",
+    "source": "doc_145",
+    "target": "event_rowlatt",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_522",
+    "source": "doc_163",
+    "target": "event_khilafat",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_523",
+    "source": "doc_174",
+    "target": "event_khilafat",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_524",
+    "source": "doc_195",
+    "target": "event_champaran",
+    "type": "ABOUT",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_525",
+    "source": "theme_truth",
+    "target": "theme_nonviolence",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_526",
+    "source": "theme_truth",
+    "target": "theme_love",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_527",
+    "source": "theme_truth",
+    "target": "theme_prayer",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_528",
+    "source": "theme_truth",
+    "target": "theme_self_discipline",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_529",
+    "source": "theme_truth",
+    "target": "theme_fasting",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_530",
+    "source": "theme_truth",
+    "target": "theme_hindu_muslim",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_531",
+    "source": "theme_truth",
+    "target": "theme_religion",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_532",
+    "source": "theme_truth",
+    "target": "theme_swaraj",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_533",
+    "source": "theme_truth",
+    "target": "theme_satyagraha",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_534",
+    "source": "theme_truth",
+    "target": "theme_civil_disobedience",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_535",
+    "source": "theme_truth",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_536",
+    "source": "theme_truth",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_537",
+    "source": "theme_truth",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_538",
+    "source": "theme_truth",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_539",
+    "source": "theme_truth",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_540",
+    "source": "theme_truth",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_541",
+    "source": "theme_truth",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_542",
+    "source": "theme_truth",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_543",
+    "source": "theme_truth",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_544",
+    "source": "theme_truth",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_545",
+    "source": "theme_truth",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_546",
+    "source": "theme_truth",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_547",
+    "source": "theme_truth",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_548",
+    "source": "theme_truth",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_549",
+    "source": "theme_truth",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_550",
+    "source": "theme_truth",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_551",
+    "source": "theme_truth",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_552",
+    "source": "theme_truth",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_553",
+    "source": "theme_truth",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_554",
+    "source": "theme_nonviolence",
+    "target": "theme_love",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_555",
+    "source": "theme_nonviolence",
+    "target": "theme_prayer",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_556",
+    "source": "theme_nonviolence",
+    "target": "theme_self_discipline",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_557",
+    "source": "theme_nonviolence",
+    "target": "theme_hindu_muslim",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_558",
+    "source": "theme_nonviolence",
+    "target": "theme_religion",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_559",
+    "source": "theme_nonviolence",
+    "target": "theme_swaraj",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_560",
+    "source": "theme_nonviolence",
+    "target": "theme_satyagraha",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_561",
+    "source": "theme_nonviolence",
+    "target": "theme_civil_disobedience",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_562",
+    "source": "theme_nonviolence",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_563",
+    "source": "theme_nonviolence",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_564",
+    "source": "theme_nonviolence",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_565",
+    "source": "theme_nonviolence",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_566",
+    "source": "theme_nonviolence",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_567",
+    "source": "theme_nonviolence",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_568",
+    "source": "theme_nonviolence",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_569",
+    "source": "theme_nonviolence",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_570",
+    "source": "theme_nonviolence",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_571",
+    "source": "theme_nonviolence",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_572",
+    "source": "theme_nonviolence",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_573",
+    "source": "theme_nonviolence",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_574",
+    "source": "theme_nonviolence",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_575",
+    "source": "theme_nonviolence",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_576",
+    "source": "theme_nonviolence",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_577",
+    "source": "theme_nonviolence",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_578",
+    "source": "theme_nonviolence",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_579",
+    "source": "theme_nonviolence",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_580",
+    "source": "theme_nonviolence",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_581",
+    "source": "theme_love",
+    "target": "theme_prayer",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_582",
+    "source": "theme_love",
+    "target": "theme_self_discipline",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_583",
+    "source": "theme_love",
+    "target": "theme_fasting",
+    "type": "RELATES_TO",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_584",
+    "source": "theme_love",
+    "target": "theme_hindu_muslim",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_585",
+    "source": "theme_love",
+    "target": "theme_religion",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_586",
+    "source": "theme_love",
+    "target": "theme_swaraj",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_587",
+    "source": "theme_love",
+    "target": "theme_satyagraha",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_588",
+    "source": "theme_love",
+    "target": "theme_civil_disobedience",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_589",
+    "source": "theme_love",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_590",
+    "source": "theme_love",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_591",
+    "source": "theme_love",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_592",
+    "source": "theme_love",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_593",
+    "source": "theme_love",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_594",
+    "source": "theme_love",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_595",
+    "source": "theme_love",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_596",
+    "source": "theme_love",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_597",
+    "source": "theme_love",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_598",
+    "source": "theme_love",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_599",
+    "source": "theme_love",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_600",
+    "source": "theme_love",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_601",
+    "source": "theme_love",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_602",
+    "source": "theme_love",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_603",
+    "source": "theme_love",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_604",
+    "source": "theme_love",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_605",
+    "source": "theme_love",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_606",
+    "source": "theme_love",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_607",
+    "source": "theme_love",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_608",
+    "source": "theme_prayer",
+    "target": "theme_self_discipline",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_609",
+    "source": "theme_prayer",
+    "target": "theme_fasting",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_610",
+    "source": "theme_prayer",
+    "target": "theme_hindu_muslim",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_611",
+    "source": "theme_prayer",
+    "target": "theme_religion",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_612",
+    "source": "theme_prayer",
+    "target": "theme_swaraj",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_613",
+    "source": "theme_prayer",
+    "target": "theme_satyagraha",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_614",
+    "source": "theme_prayer",
+    "target": "theme_civil_disobedience",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_615",
+    "source": "theme_prayer",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_616",
+    "source": "theme_prayer",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_617",
+    "source": "theme_prayer",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_618",
+    "source": "theme_prayer",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_619",
+    "source": "theme_prayer",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_620",
+    "source": "theme_prayer",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_621",
+    "source": "theme_prayer",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_622",
+    "source": "theme_prayer",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_623",
+    "source": "theme_prayer",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_624",
+    "source": "theme_prayer",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_625",
+    "source": "theme_prayer",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_626",
+    "source": "theme_prayer",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_627",
+    "source": "theme_prayer",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_628",
+    "source": "theme_prayer",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_629",
+    "source": "theme_prayer",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_630",
+    "source": "theme_prayer",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_631",
+    "source": "theme_prayer",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_632",
+    "source": "theme_prayer",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_633",
+    "source": "theme_prayer",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_634",
+    "source": "theme_self_discipline",
+    "target": "theme_fasting",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_635",
+    "source": "theme_self_discipline",
+    "target": "theme_hindu_muslim",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_636",
+    "source": "theme_self_discipline",
+    "target": "theme_religion",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_637",
+    "source": "theme_self_discipline",
+    "target": "theme_swaraj",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_638",
+    "source": "theme_self_discipline",
+    "target": "theme_satyagraha",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_639",
+    "source": "theme_self_discipline",
+    "target": "theme_civil_disobedience",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_640",
+    "source": "theme_self_discipline",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_641",
+    "source": "theme_self_discipline",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_642",
+    "source": "theme_self_discipline",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_643",
+    "source": "theme_self_discipline",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_644",
+    "source": "theme_self_discipline",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_645",
+    "source": "theme_self_discipline",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_646",
+    "source": "theme_self_discipline",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_647",
+    "source": "theme_self_discipline",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_648",
+    "source": "theme_self_discipline",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_649",
+    "source": "theme_self_discipline",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_650",
+    "source": "theme_self_discipline",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_651",
+    "source": "theme_self_discipline",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_652",
+    "source": "theme_self_discipline",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_653",
+    "source": "theme_self_discipline",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_654",
+    "source": "theme_self_discipline",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_655",
+    "source": "theme_self_discipline",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_656",
+    "source": "theme_self_discipline",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_657",
+    "source": "theme_self_discipline",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_658",
+    "source": "theme_self_discipline",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_659",
+    "source": "theme_fasting",
+    "target": "theme_hindu_muslim",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_660",
+    "source": "theme_fasting",
+    "target": "theme_religion",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_661",
+    "source": "theme_fasting",
+    "target": "theme_swaraj",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_662",
+    "source": "theme_fasting",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 0.2
+  },
+  {
+    "id": "edge_663",
+    "source": "theme_fasting",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.2
+  },
+  {
+    "id": "edge_664",
+    "source": "theme_fasting",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_665",
+    "source": "theme_fasting",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.2
+  },
+  {
+    "id": "edge_666",
+    "source": "theme_fasting",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_667",
+    "source": "theme_fasting",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_668",
+    "source": "theme_fasting",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.2
+  },
+  {
+    "id": "edge_669",
+    "source": "theme_fasting",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_670",
+    "source": "theme_fasting",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_671",
+    "source": "theme_fasting",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_672",
+    "source": "theme_fasting",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_673",
+    "source": "theme_fasting",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_674",
+    "source": "theme_fasting",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_675",
+    "source": "theme_fasting",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_676",
+    "source": "theme_hindu_muslim",
+    "target": "theme_religion",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_677",
+    "source": "theme_hindu_muslim",
+    "target": "theme_swaraj",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_678",
+    "source": "theme_hindu_muslim",
+    "target": "theme_satyagraha",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_679",
+    "source": "theme_hindu_muslim",
+    "target": "theme_civil_disobedience",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_680",
+    "source": "theme_hindu_muslim",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_681",
+    "source": "theme_hindu_muslim",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_682",
+    "source": "theme_hindu_muslim",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_683",
+    "source": "theme_hindu_muslim",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_684",
+    "source": "theme_hindu_muslim",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_685",
+    "source": "theme_hindu_muslim",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_686",
+    "source": "theme_hindu_muslim",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_687",
+    "source": "theme_hindu_muslim",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_688",
+    "source": "theme_hindu_muslim",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_689",
+    "source": "theme_hindu_muslim",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_690",
+    "source": "theme_hindu_muslim",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_691",
+    "source": "theme_hindu_muslim",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_692",
+    "source": "theme_hindu_muslim",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_693",
+    "source": "theme_hindu_muslim",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_694",
+    "source": "theme_hindu_muslim",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_695",
+    "source": "theme_hindu_muslim",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_696",
+    "source": "theme_hindu_muslim",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_697",
+    "source": "theme_hindu_muslim",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_698",
+    "source": "theme_hindu_muslim",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_699",
+    "source": "theme_religion",
+    "target": "theme_swaraj",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_700",
+    "source": "theme_religion",
+    "target": "theme_satyagraha",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_701",
+    "source": "theme_religion",
+    "target": "theme_civil_disobedience",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_702",
+    "source": "theme_religion",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_703",
+    "source": "theme_religion",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_704",
+    "source": "theme_religion",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_705",
+    "source": "theme_religion",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_706",
+    "source": "theme_religion",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_707",
+    "source": "theme_religion",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_708",
+    "source": "theme_religion",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_709",
+    "source": "theme_religion",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_710",
+    "source": "theme_religion",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_711",
+    "source": "theme_religion",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_712",
+    "source": "theme_religion",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_713",
+    "source": "theme_religion",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_714",
+    "source": "theme_religion",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_715",
+    "source": "theme_religion",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_716",
+    "source": "theme_religion",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_717",
+    "source": "theme_religion",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_718",
+    "source": "theme_religion",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_719",
+    "source": "theme_religion",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_720",
+    "source": "theme_religion",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_721",
+    "source": "theme_swaraj",
+    "target": "theme_satyagraha",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_722",
+    "source": "theme_swaraj",
+    "target": "theme_civil_disobedience",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_723",
+    "source": "theme_swaraj",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_724",
+    "source": "theme_swaraj",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_725",
+    "source": "theme_swaraj",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_726",
+    "source": "theme_swaraj",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_727",
+    "source": "theme_swaraj",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_728",
+    "source": "theme_swaraj",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_729",
+    "source": "theme_swaraj",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_730",
+    "source": "theme_swaraj",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_731",
+    "source": "theme_swaraj",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_732",
+    "source": "theme_swaraj",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_733",
+    "source": "theme_swaraj",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_734",
+    "source": "theme_swaraj",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_735",
+    "source": "theme_swaraj",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_736",
+    "source": "theme_swaraj",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_737",
+    "source": "theme_swaraj",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_738",
+    "source": "theme_swaraj",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_739",
+    "source": "theme_swaraj",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_740",
+    "source": "theme_swaraj",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_741",
+    "source": "theme_swaraj",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_742",
+    "source": "theme_satyagraha",
+    "target": "theme_civil_disobedience",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_743",
+    "source": "theme_satyagraha",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_744",
+    "source": "theme_satyagraha",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_745",
+    "source": "theme_satyagraha",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_746",
+    "source": "theme_satyagraha",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_747",
+    "source": "theme_satyagraha",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_748",
+    "source": "theme_satyagraha",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_749",
+    "source": "theme_satyagraha",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_750",
+    "source": "theme_satyagraha",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_751",
+    "source": "theme_satyagraha",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_752",
+    "source": "theme_satyagraha",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_753",
+    "source": "theme_satyagraha",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_754",
+    "source": "theme_satyagraha",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_755",
+    "source": "theme_satyagraha",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_756",
+    "source": "theme_satyagraha",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_757",
+    "source": "theme_satyagraha",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_758",
+    "source": "theme_satyagraha",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_759",
+    "source": "theme_satyagraha",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_760",
+    "source": "theme_satyagraha",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_761",
+    "source": "theme_satyagraha",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_762",
+    "source": "theme_civil_disobedience",
+    "target": "theme_british",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_763",
+    "source": "theme_civil_disobedience",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_764",
+    "source": "theme_civil_disobedience",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_765",
+    "source": "theme_civil_disobedience",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_766",
+    "source": "theme_civil_disobedience",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_767",
+    "source": "theme_civil_disobedience",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_768",
+    "source": "theme_civil_disobedience",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_769",
+    "source": "theme_civil_disobedience",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_770",
+    "source": "theme_civil_disobedience",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_771",
+    "source": "theme_civil_disobedience",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_772",
+    "source": "theme_civil_disobedience",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_773",
+    "source": "theme_civil_disobedience",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_774",
+    "source": "theme_civil_disobedience",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_775",
+    "source": "theme_civil_disobedience",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_776",
+    "source": "theme_civil_disobedience",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_777",
+    "source": "theme_civil_disobedience",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_778",
+    "source": "theme_civil_disobedience",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_779",
+    "source": "theme_civil_disobedience",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_780",
+    "source": "theme_civil_disobedience",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_781",
+    "source": "theme_british",
+    "target": "theme_salt",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_782",
+    "source": "theme_british",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_783",
+    "source": "theme_british",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_784",
+    "source": "theme_british",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_785",
+    "source": "theme_british",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_786",
+    "source": "theme_british",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_787",
+    "source": "theme_british",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_788",
+    "source": "theme_british",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_789",
+    "source": "theme_british",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_790",
+    "source": "theme_british",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_791",
+    "source": "theme_british",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_792",
+    "source": "theme_british",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_793",
+    "source": "theme_british",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_794",
+    "source": "theme_british",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_795",
+    "source": "theme_british",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_796",
+    "source": "theme_british",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_797",
+    "source": "theme_british",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_798",
+    "source": "theme_british",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_799",
+    "source": "theme_salt",
+    "target": "theme_congress",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_800",
+    "source": "theme_salt",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_801",
+    "source": "theme_salt",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_802",
+    "source": "theme_salt",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_803",
+    "source": "theme_salt",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_804",
+    "source": "theme_salt",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_805",
+    "source": "theme_salt",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_806",
+    "source": "theme_salt",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_807",
+    "source": "theme_salt",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_808",
+    "source": "theme_salt",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_809",
+    "source": "theme_salt",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_810",
+    "source": "theme_salt",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_811",
+    "source": "theme_salt",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_812",
+    "source": "theme_salt",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_813",
+    "source": "theme_salt",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_814",
+    "source": "theme_salt",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_815",
+    "source": "theme_salt",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_816",
+    "source": "theme_congress",
+    "target": "theme_leadership",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_817",
+    "source": "theme_congress",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_818",
+    "source": "theme_congress",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_819",
+    "source": "theme_congress",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_820",
+    "source": "theme_congress",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_821",
+    "source": "theme_congress",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_822",
+    "source": "theme_congress",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_823",
+    "source": "theme_congress",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_824",
+    "source": "theme_congress",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_825",
+    "source": "theme_congress",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_826",
+    "source": "theme_congress",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_827",
+    "source": "theme_congress",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_828",
+    "source": "theme_congress",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_829",
+    "source": "theme_congress",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_830",
+    "source": "theme_congress",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_831",
+    "source": "theme_congress",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_832",
+    "source": "theme_leadership",
+    "target": "theme_untouchability",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_833",
+    "source": "theme_leadership",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_834",
+    "source": "theme_leadership",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_835",
+    "source": "theme_leadership",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_836",
+    "source": "theme_leadership",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.15
+  },
+  {
+    "id": "edge_837",
+    "source": "theme_leadership",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_838",
+    "source": "theme_leadership",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_839",
+    "source": "theme_leadership",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_840",
+    "source": "theme_leadership",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_841",
+    "source": "theme_leadership",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_842",
+    "source": "theme_leadership",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_843",
+    "source": "theme_leadership",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_844",
+    "source": "theme_leadership",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_845",
+    "source": "theme_leadership",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_846",
+    "source": "theme_leadership",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_847",
+    "source": "theme_untouchability",
+    "target": "theme_women",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_848",
+    "source": "theme_untouchability",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_849",
+    "source": "theme_untouchability",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_850",
+    "source": "theme_untouchability",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_851",
+    "source": "theme_untouchability",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_852",
+    "source": "theme_untouchability",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_853",
+    "source": "theme_untouchability",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_854",
+    "source": "theme_untouchability",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_855",
+    "source": "theme_untouchability",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_856",
+    "source": "theme_untouchability",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_857",
+    "source": "theme_untouchability",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_858",
+    "source": "theme_untouchability",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_859",
+    "source": "theme_untouchability",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_860",
+    "source": "theme_untouchability",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_861",
+    "source": "theme_women",
+    "target": "theme_communal",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_862",
+    "source": "theme_women",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_863",
+    "source": "theme_women",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_864",
+    "source": "theme_women",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_865",
+    "source": "theme_women",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_866",
+    "source": "theme_women",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_867",
+    "source": "theme_women",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_868",
+    "source": "theme_women",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_869",
+    "source": "theme_women",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_870",
+    "source": "theme_women",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_871",
+    "source": "theme_women",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_872",
+    "source": "theme_women",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_873",
+    "source": "theme_women",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_874",
+    "source": "theme_communal",
+    "target": "theme_education",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_875",
+    "source": "theme_communal",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_876",
+    "source": "theme_communal",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.25
+  },
+  {
+    "id": "edge_877",
+    "source": "theme_communal",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_878",
+    "source": "theme_communal",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_879",
+    "source": "theme_communal",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_880",
+    "source": "theme_communal",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_881",
+    "source": "theme_communal",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.75
+  },
+  {
+    "id": "edge_882",
+    "source": "theme_communal",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_883",
+    "source": "theme_communal",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_884",
+    "source": "theme_communal",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_885",
+    "source": "theme_communal",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_886",
+    "source": "theme_education",
+    "target": "theme_health",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  },
+  {
+    "id": "edge_887",
+    "source": "theme_education",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_888",
+    "source": "theme_education",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_889",
+    "source": "theme_education",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_890",
+    "source": "theme_education",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_891",
+    "source": "theme_education",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_892",
+    "source": "theme_education",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_893",
+    "source": "theme_education",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_894",
+    "source": "theme_education",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_895",
+    "source": "theme_education",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_896",
+    "source": "theme_education",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_897",
+    "source": "theme_health",
+    "target": "theme_village",
+    "type": "RELATES_TO",
+    "weight": 0.3
+  },
+  {
+    "id": "edge_898",
+    "source": "theme_health",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_899",
+    "source": "theme_health",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_900",
+    "source": "theme_health",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_901",
+    "source": "theme_health",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.35
+  },
+  {
+    "id": "edge_902",
+    "source": "theme_health",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_903",
+    "source": "theme_health",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.4
+  },
+  {
+    "id": "edge_904",
+    "source": "theme_health",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_905",
+    "source": "theme_health",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_906",
+    "source": "theme_health",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_907",
+    "source": "theme_village",
+    "target": "theme_labor",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_908",
+    "source": "theme_village",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_909",
+    "source": "theme_village",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_910",
+    "source": "theme_village",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_911",
+    "source": "theme_village",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_912",
+    "source": "theme_village",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.6
+  },
+  {
+    "id": "edge_913",
+    "source": "theme_village",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_914",
+    "source": "theme_village",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_915",
+    "source": "theme_village",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_916",
+    "source": "theme_labor",
+    "target": "theme_swadeshi",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_917",
+    "source": "theme_labor",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_918",
+    "source": "theme_labor",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_919",
+    "source": "theme_labor",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_920",
+    "source": "theme_labor",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_921",
+    "source": "theme_labor",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_922",
+    "source": "theme_labor",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_923",
+    "source": "theme_labor",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_924",
+    "source": "theme_swadeshi",
+    "target": "theme_spinning",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_925",
+    "source": "theme_swadeshi",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 0.55
+  },
+  {
+    "id": "edge_926",
+    "source": "theme_swadeshi",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_927",
+    "source": "theme_swadeshi",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.65
+  },
+  {
+    "id": "edge_928",
+    "source": "theme_swadeshi",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_929",
+    "source": "theme_swadeshi",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.45
+  },
+  {
+    "id": "edge_930",
+    "source": "theme_swadeshi",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_931",
+    "source": "theme_spinning",
+    "target": "theme_simple_living",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_932",
+    "source": "theme_spinning",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_933",
+    "source": "theme_spinning",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_934",
+    "source": "theme_spinning",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_935",
+    "source": "theme_spinning",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_936",
+    "source": "theme_spinning",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_937",
+    "source": "theme_simple_living",
+    "target": "theme_economic",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_938",
+    "source": "theme_simple_living",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_939",
+    "source": "theme_simple_living",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 0.95
+  },
+  {
+    "id": "edge_940",
+    "source": "theme_simple_living",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_941",
+    "source": "theme_simple_living",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_942",
+    "source": "theme_economic",
+    "target": "theme_courage",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_943",
+    "source": "theme_economic",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_944",
+    "source": "theme_economic",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.9
+  },
+  {
+    "id": "edge_945",
+    "source": "theme_economic",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_946",
+    "source": "theme_courage",
+    "target": "theme_service",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_947",
+    "source": "theme_courage",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_948",
+    "source": "theme_courage",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.7
+  },
+  {
+    "id": "edge_949",
+    "source": "theme_service",
+    "target": "theme_diet",
+    "type": "RELATES_TO",
+    "weight": 0.8
+  },
+  {
+    "id": "edge_950",
+    "source": "theme_service",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 1.0
+  },
+  {
+    "id": "edge_951",
+    "source": "theme_diet",
+    "target": "theme_nature",
+    "type": "RELATES_TO",
+    "weight": 0.5
+  }
+]

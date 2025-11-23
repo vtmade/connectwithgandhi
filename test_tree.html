@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Tree</title>
+  <style>
+    body { margin: 0; padding: 20px; background: #0a0a0a; color: white; }
+    .node circle { cursor: pointer; fill: #fff; stroke: steelblue; stroke-width: 2px; }
+    .node text { font: 12px sans-serif; fill: #e0e0e0; }
+    .link { fill: none; stroke: #555; stroke-opacity: 0.4; stroke-width: 1.5px; }
+  </style>
+</head>
+<body>
+  <div id="tree"></div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+    const width = 1200;
+    const height = 800;
+
+    const svg = d3.select('#tree')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height);
+
+    const g = svg.append('g')
+      .attr('transform', 'translate(100, 400)');
+
+    // Load data
+    d3.json('/data/radial_tree.json').then(treeData => {
+      console.log('Loaded data:', treeData);
+
+      const tree = d3.tree().size([600, 1000]);
+      const root = d3.hierarchy(treeData);
+      
+      console.log('Root descendants:', root.descendants().length);
+
+      // Collapse all except root
+      root.descendants().forEach(d => {
+        if (d.depth > 1) {
+          d._children = d.children;
+          d.children = null;
+        }
+      });
+
+      let i = 0;
+      update(root);
+
+      function update(source) {
+        const treeData = tree(root);
+        const nodes = treeData.descendants();
+        const links = treeData.links();
+
+        // Normalize for fixed-depth
+        nodes.forEach(d => { d.y = d.depth * 200; });
+
+        // Update links
+        const link = g.selectAll('.link')
+          .data(links, d => d.target.id || (d.target.id = ++i));
+
+        link.enter().insert('path', 'g')
+          .attr('class', 'link')
+          .merge(link)
+          .attr('d', d => {
+            return `M ${d.source.y} ${d.source.x}
+                    C ${(d.source.y + d.target.y) / 2} ${d.source.x},
+                      ${(d.source.y + d.target.y) / 2} ${d.target.x},
+                      ${d.target.y} ${d.target.x}`;
+          });
+
+        link.exit().remove();
+
+        // Update nodes
+        const node = g.selectAll('.node')
+          .data(nodes, d => d.id || (d.id = ++i));
+
+        const nodeEnter = node.enter().append('g')
+          .attr('class', 'node')
+          .attr('transform', d => `translate(${d.y},${d.x})`)
+          .on('click', (event, d) => {
+            console.log('Clicked:', d.data.name, 'has children:', !!d.children, 'has _children:', !!d._children);
+            
+            if (d.children) {
+              d._children = d.children;
+              d.children = null;
+            } else {
+              d.children = d._children;
+              d._children = null;
+            }
+            update(d);
+          });
+
+        nodeEnter.append('circle').attr('r', 5);
+        nodeEnter.append('text')
+          .attr('dy', 3)
+          .attr('x', d => d.children || d._children ? -8 : 8)
+          .style('text-anchor', d => d.children || d._children ? 'end' : 'start')
+          .text(d => d.data.name.substring(0, 30));
+
+        node.exit().remove();
+      }
+    });
+  </script>
+</body>
+</html>

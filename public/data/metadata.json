@@ -1,0 +1,623 @@
+{
+  "version": "0.1.0-sample",
+  "generated": "2025-11-22",
+  "isSample": true,
+  "statistics": {
+    "totalNodes": 273,
+    "totalEdges": 952,
+    "nodesByType": {
+      "document": 200,
+      "theme": 30,
+      "person": 30,
+      "event": 8,
+      "period": 5
+    },
+    "edgesByType": {
+      "DISCUSSES": 186,
+      "MENTIONS": 123,
+      "WRITTEN_IN": 199,
+      "ABOUT": 17,
+      "RELATES_TO": 427
+    }
+  },
+  "themeHierarchy": {
+    "spiritual_philosophical": {
+      "name": "Spiritual & Philosophical",
+      "color": "#8B5CF6",
+      "themes": {
+        "core_principles": {
+          "name": "Core Principles",
+          "subthemes": [
+            {
+              "id": "theme_truth",
+              "name": "Truth (Satya)",
+              "keywords": [
+                "truth",
+                "satya",
+                "truthfulness",
+                "honest"
+              ],
+              "category": "spiritual_philosophical",
+              "categoryName": "Spiritual & Philosophical",
+              "categoryColor": "#8B5CF6",
+              "subcategory": "core_principles",
+              "subcategoryName": "Core Principles"
+            },
+            {
+              "id": "theme_nonviolence",
+              "name": "Non-violence (Ahimsa)",
+              "keywords": [
+                "non-violence",
+                "ahimsa",
+                "peaceful",
+                "non-violent",
+                "peace"
+              ],
+              "category": "spiritual_philosophical",
+              "categoryName": "Spiritual & Philosophical",
+              "categoryColor": "#8B5CF6",
+              "subcategory": "core_principles",
+              "subcategoryName": "Core Principles"
+            },
+            {
+              "id": "theme_love",
+              "name": "Love & Compassion",
+              "keywords": [
+                "love",
+                "compassion",
+                "kindness",
+                "mercy"
+              ],
+              "category": "spiritual_philosophical",
+              "categoryName": "Spiritual & Philosophical",
+              "categoryColor": "#8B5CF6",
+              "subcategory": "core_principles",
+              "subcategoryName": "Core Principles"
+            }
+          ]
+        },
+        "spiritual_practice": {
+          "name": "Spiritual Practice",
+          "subthemes": [
+            {
+              "id": "theme_prayer",
+              "name": "Prayer & Meditation",
+              "keywords": [
+                "prayer",
+                "meditation",
+                "worship",
+                "god",
+                "divine"
+              ],
+              "category": "spiritual_philosophical",
+              "categoryName": "Spiritual & Philosophical",
+              "categoryColor": "#8B5CF6",
+              "subcategory": "spiritual_practice",
+              "subcategoryName": "Spiritual Practice"
+            },
+            {
+              "id": "theme_self_discipline",
+              "name": "Self-Discipline",
+              "keywords": [
+                "discipline",
+                "restraint",
+                "control",
+                "brahmacharya",
+                "celibacy"
+              ],
+              "category": "spiritual_philosophical",
+              "categoryName": "Spiritual & Philosophical",
+              "categoryColor": "#8B5CF6",
+              "subcategory": "spiritual_practice",
+              "subcategoryName": "Spiritual Practice"
+            },
+            {
+              "id": "theme_fasting",
+              "name": "Fasting",
+              "keywords": [
+                "fast",
+                "fasting",
+                "abstain",
+                "hunger"
+              ],
+              "category": "spiritual_philosophical",
+              "categoryName": "Spiritual & Philosophical",
+              "categoryColor": "#8B5CF6",
+              "subcategory": "spiritual_practice",
+              "subcategoryName": "Spiritual Practice"
+            }
+          ]
+        },
+        "religious_harmony": {
+          "name": "Religious Harmony",
+          "subthemes": [
+            {
+              "id": "theme_hindu_muslim",
+              "name": "Hindu-Muslim Unity",
+              "keywords": [
+                "hindu",
+                "muslim",
+                "unity",
+                "communal",
+                "harmony"
+              ],
+              "category": "spiritual_philosophical",
+              "categoryName": "Spiritual & Philosophical",
+              "categoryColor": "#8B5CF6",
+              "subcategory": "religious_harmony",
+              "subcategoryName": "Religious Harmony"
+            },
+            {
+              "id": "theme_religion",
+              "name": "Religious Tolerance",
+              "keywords": [
+                "religion",
+                "religious",
+                "faith",
+                "belief",
+                "tolerance"
+              ],
+              "category": "spiritual_philosophical",
+              "categoryName": "Spiritual & Philosophical",
+              "categoryColor": "#8B5CF6",
+              "subcategory": "religious_harmony",
+              "subcategoryName": "Religious Harmony"
+            }
+          ]
+        }
+      }
+    },
+    "political_freedom": {
+      "name": "Political & Freedom Movement",
+      "color": "#EF4444",
+      "themes": {
+        "independence_movement": {
+          "name": "Independence Movement",
+          "subthemes": [
+            {
+              "id": "theme_swaraj",
+              "name": "Swaraj (Self-Rule)",
+              "keywords": [
+                "swaraj",
+                "self-rule",
+                "independence",
+                "freedom",
+                "liberty",
+                "free"
+              ],
+              "category": "political_freedom",
+              "categoryName": "Political & Freedom Movement",
+              "categoryColor": "#EF4444",
+              "subcategory": "independence_movement",
+              "subcategoryName": "Independence Movement"
+            },
+            {
+              "id": "theme_satyagraha",
+              "name": "Satyagraha",
+              "keywords": [
+                "satyagraha",
+                "civil resistance",
+                "passive resistance",
+                "non-cooperation"
+              ],
+              "category": "political_freedom",
+              "categoryName": "Political & Freedom Movement",
+              "categoryColor": "#EF4444",
+              "subcategory": "independence_movement",
+              "subcategoryName": "Independence Movement"
+            },
+            {
+              "id": "theme_civil_disobedience",
+              "name": "Civil Disobedience",
+              "keywords": [
+                "civil disobedience",
+                "disobey",
+                "resist",
+                "protest",
+                "defiance"
+              ],
+              "category": "political_freedom",
+              "categoryName": "Political & Freedom Movement",
+              "categoryColor": "#EF4444",
+              "subcategory": "independence_movement",
+              "subcategoryName": "Independence Movement"
+            }
+          ]
+        },
+        "colonial_rule": {
+          "name": "Opposition to Colonial Rule",
+          "subthemes": [
+            {
+              "id": "theme_british",
+              "name": "British Rule",
+              "keywords": [
+                "british",
+                "empire",
+                "colonial",
+                "imperial",
+                "englishman",
+                "government"
+              ],
+              "category": "political_freedom",
+              "categoryName": "Political & Freedom Movement",
+              "categoryColor": "#EF4444",
+              "subcategory": "colonial_rule",
+              "subcategoryName": "Opposition to Colonial Rule"
+            },
+            {
+              "id": "theme_salt",
+              "name": "Salt Satyagraha",
+              "keywords": [
+                "salt",
+                "dandi",
+                "march",
+                "satyagraha"
+              ],
+              "category": "political_freedom",
+              "categoryName": "Political & Freedom Movement",
+              "categoryColor": "#EF4444",
+              "subcategory": "colonial_rule",
+              "subcategoryName": "Opposition to Colonial Rule"
+            }
+          ]
+        },
+        "political_organization": {
+          "name": "Political Organization",
+          "subthemes": [
+            {
+              "id": "theme_congress",
+              "name": "Indian National Congress",
+              "keywords": [
+                "congress",
+                "party",
+                "national",
+                "meeting"
+              ],
+              "category": "political_freedom",
+              "categoryName": "Political & Freedom Movement",
+              "categoryColor": "#EF4444",
+              "subcategory": "political_organization",
+              "subcategoryName": "Political Organization"
+            },
+            {
+              "id": "theme_leadership",
+              "name": "Leadership & Strategy",
+              "keywords": [
+                "leader",
+                "leadership",
+                "strategy",
+                "campaign",
+                "movement"
+              ],
+              "category": "political_freedom",
+              "categoryName": "Political & Freedom Movement",
+              "categoryColor": "#EF4444",
+              "subcategory": "political_organization",
+              "subcategoryName": "Political Organization"
+            }
+          ]
+        }
+      }
+    },
+    "social_reform": {
+      "name": "Social Reform",
+      "color": "#10B981",
+      "themes": {
+        "equality_rights": {
+          "name": "Equality & Rights",
+          "subthemes": [
+            {
+              "id": "theme_untouchability",
+              "name": "Untouchability",
+              "keywords": [
+                "untouchable",
+                "harijan",
+                "caste",
+                "discrimination",
+                "depressed"
+              ],
+              "category": "social_reform",
+              "categoryName": "Social Reform",
+              "categoryColor": "#10B981",
+              "subcategory": "equality_rights",
+              "subcategoryName": "Equality & Rights"
+            },
+            {
+              "id": "theme_women",
+              "name": "Women's Rights",
+              "keywords": [
+                "women",
+                "woman",
+                "wife",
+                "daughter",
+                "equality",
+                "purdah"
+              ],
+              "category": "social_reform",
+              "categoryName": "Social Reform",
+              "categoryColor": "#10B981",
+              "subcategory": "equality_rights",
+              "subcategoryName": "Equality & Rights"
+            },
+            {
+              "id": "theme_communal",
+              "name": "Communal Harmony",
+              "keywords": [
+                "communal",
+                "riot",
+                "tension",
+                "peace",
+                "brotherhood"
+              ],
+              "category": "social_reform",
+              "categoryName": "Social Reform",
+              "categoryColor": "#10B981",
+              "subcategory": "equality_rights",
+              "subcategoryName": "Equality & Rights"
+            }
+          ]
+        },
+        "education_health": {
+          "name": "Education & Health",
+          "subthemes": [
+            {
+              "id": "theme_education",
+              "name": "Education",
+              "keywords": [
+                "education",
+                "school",
+                "teaching",
+                "learning",
+                "student",
+                "literacy"
+              ],
+              "category": "social_reform",
+              "categoryName": "Social Reform",
+              "categoryColor": "#10B981",
+              "subcategory": "education_health",
+              "subcategoryName": "Education & Health"
+            },
+            {
+              "id": "theme_health",
+              "name": "Health & Sanitation",
+              "keywords": [
+                "health",
+                "sanitation",
+                "hygiene",
+                "disease",
+                "cleanliness",
+                "clean"
+              ],
+              "category": "social_reform",
+              "categoryName": "Social Reform",
+              "categoryColor": "#10B981",
+              "subcategory": "education_health",
+              "subcategoryName": "Education & Health"
+            }
+          ]
+        },
+        "village_development": {
+          "name": "Village & Rural Development",
+          "subthemes": [
+            {
+              "id": "theme_village",
+              "name": "Village Life",
+              "keywords": [
+                "village",
+                "rural",
+                "countryside",
+                "peasant",
+                "farmer",
+                "agriculture"
+              ],
+              "category": "social_reform",
+              "categoryName": "Social Reform",
+              "categoryColor": "#10B981",
+              "subcategory": "village_development",
+              "subcategoryName": "Village & Rural Development"
+            },
+            {
+              "id": "theme_labor",
+              "name": "Labor & Work",
+              "keywords": [
+                "labor",
+                "labour",
+                "work",
+                "worker",
+                "service",
+                "bread"
+              ],
+              "category": "social_reform",
+              "categoryName": "Social Reform",
+              "categoryColor": "#10B981",
+              "subcategory": "village_development",
+              "subcategoryName": "Village & Rural Development"
+            }
+          ]
+        }
+      }
+    },
+    "economic_self_reliance": {
+      "name": "Economic Self-Reliance",
+      "color": "#F59E0B",
+      "themes": {
+        "swadeshi": {
+          "name": "Swadeshi Movement",
+          "subthemes": [
+            {
+              "id": "theme_swadeshi",
+              "name": "Swadeshi (Indigenous)",
+              "keywords": [
+                "swadeshi",
+                "indigenous",
+                "local",
+                "boycott",
+                "foreign"
+              ],
+              "category": "economic_self_reliance",
+              "categoryName": "Economic Self-Reliance",
+              "categoryColor": "#F59E0B",
+              "subcategory": "swadeshi",
+              "subcategoryName": "Swadeshi Movement"
+            },
+            {
+              "id": "theme_spinning",
+              "name": "Khadi & Spinning",
+              "keywords": [
+                "spinning",
+                "charkha",
+                "khadi",
+                "cloth",
+                "weaving",
+                "yarn"
+              ],
+              "category": "economic_self_reliance",
+              "categoryName": "Economic Self-Reliance",
+              "categoryColor": "#F59E0B",
+              "subcategory": "swadeshi",
+              "subcategoryName": "Swadeshi Movement"
+            }
+          ]
+        },
+        "economic_philosophy": {
+          "name": "Economic Philosophy",
+          "subthemes": [
+            {
+              "id": "theme_simple_living",
+              "name": "Simple Living",
+              "keywords": [
+                "simple",
+                "simplicity",
+                "poverty",
+                "voluntary",
+                "needs"
+              ],
+              "category": "economic_self_reliance",
+              "categoryName": "Economic Self-Reliance",
+              "categoryColor": "#F59E0B",
+              "subcategory": "economic_philosophy",
+              "subcategoryName": "Economic Philosophy"
+            },
+            {
+              "id": "theme_economic",
+              "name": "Economic Justice",
+              "keywords": [
+                "economic",
+                "economy",
+                "wealth",
+                "rich",
+                "poor",
+                "justice"
+              ],
+              "category": "economic_self_reliance",
+              "categoryName": "Economic Self-Reliance",
+              "categoryColor": "#F59E0B",
+              "subcategory": "economic_philosophy",
+              "subcategoryName": "Economic Philosophy"
+            }
+          ]
+        }
+      }
+    },
+    "personal_conduct": {
+      "name": "Personal Conduct & Ethics",
+      "color": "#06B6D4",
+      "themes": {
+        "personal_virtues": {
+          "name": "Personal Virtues",
+          "subthemes": [
+            {
+              "id": "theme_courage",
+              "name": "Courage & Fearlessness",
+              "keywords": [
+                "courage",
+                "brave",
+                "fearless",
+                "fear",
+                "coward"
+              ],
+              "category": "personal_conduct",
+              "categoryName": "Personal Conduct & Ethics",
+              "categoryColor": "#06B6D4",
+              "subcategory": "personal_virtues",
+              "subcategoryName": "Personal Virtues"
+            },
+            {
+              "id": "theme_service",
+              "name": "Service & Duty",
+              "keywords": [
+                "service",
+                "duty",
+                "sacrifice",
+                "selfless",
+                "seva"
+              ],
+              "category": "personal_conduct",
+              "categoryName": "Personal Conduct & Ethics",
+              "categoryColor": "#06B6D4",
+              "subcategory": "personal_virtues",
+              "subcategoryName": "Personal Virtues"
+            }
+          ]
+        },
+        "daily_life": {
+          "name": "Daily Life & Habits",
+          "subthemes": [
+            {
+              "id": "theme_diet",
+              "name": "Diet & Food",
+              "keywords": [
+                "diet",
+                "food",
+                "eating",
+                "vegetarian",
+                "milk",
+                "fruits"
+              ],
+              "category": "personal_conduct",
+              "categoryName": "Personal Conduct & Ethics",
+              "categoryColor": "#06B6D4",
+              "subcategory": "daily_life",
+              "subcategoryName": "Daily Life & Habits"
+            },
+            {
+              "id": "theme_nature",
+              "name": "Nature Cure",
+              "keywords": [
+                "nature",
+                "cure",
+                "treatment",
+                "natural",
+                "remedy"
+              ],
+              "category": "personal_conduct",
+              "categoryName": "Personal Conduct & Ethics",
+              "categoryColor": "#06B6D4",
+              "subcategory": "daily_life",
+              "subcategoryName": "Daily Life & Habits"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colorScheme": {
+    "document": "#F59E0B",
+    "theme": "#10B981",
+    "person": "#06B6D4",
+    "event": "#EF4444",
+    "location": "#FBBF24",
+    "period": "#A855F7",
+    "spiritual_philosophical": "#8B5CF6",
+    "political_freedom": "#EF4444",
+    "social_reform": "#10B981",
+    "economic_self_reliance": "#F59E0B",
+    "personal_conduct": "#06B6D4"
+  },
+  "sizeMapping": {
+    "small": 2.5,
+    "medium": 4,
+    "large": 6,
+    "xlarge": 8
+  }
+}

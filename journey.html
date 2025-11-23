@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gandhi's Letters - Geographic Journey</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --color-bg: #0a0a0a;
+      --color-bg-light: #1a1a1a;
+      --color-bg-card: #141414;
+      --color-text: #e0e0e0;
+      --color-text-dim: #888888;
+      --color-accent: #4fc3f7;
+      --color-accent-dim: #0288d1;
+      --color-border: #2a2a2a;
+      --font-sans: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--color-bg);
+      color: var(--color-text);
+      overflow-x: hidden;
+    }
+
+    #container {
+      display: flex;
+      height: 100vh;
+    }
+
+    /* Map (Right 60%) */
+    #map-container {
+      width: 60%;
+      height: 100vh;
+      position: relative;
+      background: #000;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      background: #000;
+    }
+
+    .map-overlay {
+      position: absolute;
+      bottom: 2rem;
+      left: 2rem;
+      right: 2rem;
+      z-index: 1000;
+      background: rgba(10, 10, 10, 0.95);
+      border: 1px solid var(--color-border);
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .map-overlay h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--color-accent);
+      margin-bottom: 0.5rem;
+    }
+
+    .map-overlay .location-meta {
+      font-size: 0.85rem;
+      color: var(--color-text-dim);
+      margin-bottom: 1.5rem;
+    }
+
+    /* Sidebar (Left 40%) */
+    #sidebar {
+      width: 40%;
+      height: 100vh;
+      overflow-y: auto;
+      background: var(--color-bg-light);
+      border-right: 1px solid var(--color-border);
+    }
+
+    #sidebar-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--color-bg-light);
+      border-bottom: 1px solid var(--color-border);
+      padding: 1.5rem 2rem;
+    }
+
+    #sidebar-header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffa726;
+      margin-bottom: 0.75rem;
+      line-height: 1.2;
+      letter-spacing: -0.5px;
+    }
+
+    #sidebar-header .subtitle {
+      font-size: 0.95rem;
+      color: var(--color-text);
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+
+    .explore-note {
+      font-size: 0.85rem;
+      color: var(--color-text);
+      line-height: 1.6;
+      padding: 0.75rem;
+      background: rgba(255, 167, 38, 0.1);
+      border-left: 3px solid #ffa726;
+      margin-bottom: 1rem;
+      border-radius: 2px;
+    }
+
+    .credits-header {
+      font-size: 0.7rem;
+      color: var(--color-text-dim);
+      line-height: 1.6;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .credits-header div {
+      margin-bottom: 0.25rem;
+    }
+
+    .credits-header a {
+      color: var(--color-accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .credits-header a:hover {
+      border-bottom-color: var(--color-accent);
+    }
+
+    /* Timeline on Map */
+    .map-timeline {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .timeline-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .timeline-header h3 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--color-text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .timeline-range {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      color: var(--color-accent);
+      font-weight: 600;
+    }
+
+    .timeline-range .window {
+      color: var(--color-text);
+      font-size: 0.85rem;
+      margin-left: 0.5rem;
+    }
+
+
+    .timeline-slider {
+      position: relative;
+    }
+
+    .timeline-slider input[type="range"] {
+      width: 100%;
+      height: 3px;
+      background: var(--color-border);
+      border-radius: 2px;
+      outline: none;
+      -webkit-appearance: none;
+    }
+
+    .timeline-slider input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      background: var(--color-accent);
+      border-radius: 50%;
+      cursor: grab;
+      border: 2px solid rgba(10, 10, 10, 0.95);
+      box-shadow: 0 0 0 2px var(--color-accent), 0 4px 12px rgba(79, 195, 247, 0.6);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .timeline-slider input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 0 3px var(--color-accent), 0 6px 16px rgba(79, 195, 247, 0.8);
+    }
+
+    .timeline-slider input[type="range"]::-webkit-slider-thumb:active {
+      cursor: grabbing;
+      transform: scale(1.1);
+    }
+
+    .timeline-slider input[type="range"]::-moz-range-thumb {
+      width: 18px;
+      height: 18px;
+      background: var(--color-accent);
+      border-radius: 50%;
+      cursor: grab;
+      border: 2px solid rgba(10, 10, 10, 0.95);
+      box-shadow: 0 0 0 2px var(--color-accent), 0 4px 12px rgba(79, 195, 247, 0.6);
+    }
+
+    .timeline-years {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--color-text-dim);
+    }
+
+    /* Location Sections */
+    .location-section {
+      padding: 2rem;
+      border-bottom: 1px solid var(--color-border);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .location-section:hover {
+      background: var(--color-bg-card);
+    }
+
+    .location-section.active {
+      background: var(--color-bg-card);
+      border-left: 3px solid var(--color-accent);
+    }
+
+    .location-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .location-header h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--color-text);
+    }
+
+    .location-header .doc-count {
+      font-size: 0.85rem;
+      color: var(--color-accent);
+      background: rgba(79, 195, 247, 0.1);
+      padding: 0.25rem 0.75rem;
+      border-radius: 12px;
+      font-weight: 500;
+    }
+
+    /* Theme Cloud */
+    .theme-cloud {
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      background: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 4px;
+    }
+
+    .theme-cloud-header {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--color-text-dim);
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .theme-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .theme-tag {
+      padding: 0.5rem 1rem;
+      background: rgba(79, 195, 247, 0.1);
+      border: 1px solid var(--color-accent-dim);
+      border-radius: 20px;
+      font-size: 0.85rem;
+      color: var(--color-accent);
+      cursor: pointer;
+      transition: all 0.2s;
+      font-weight: 500;
+    }
+
+    /* Pastel theme colors */
+    .theme-tag[data-theme="Satyagraha"] { background: rgba(255, 183, 77, 0.15); border-color: #ffb74d; color: #ffb74d; }
+    .theme-tag[data-theme="Non-violence"] { background: rgba(129, 199, 132, 0.15); border-color: #81c784; color: #81c784; }
+    .theme-tag[data-theme="Truth"] { background: rgba(100, 181, 246, 0.15); border-color: #64b5f6; color: #64b5f6; }
+    .theme-tag[data-theme="Religion"] { background: rgba(186, 104, 200, 0.15); border-color: #ba68c8; color: #ba68c8; }
+    .theme-tag[data-theme="Politics"] { background: rgba(239, 83, 80, 0.15); border-color: #ef5350; color: #ef5350; }
+    .theme-tag[data-theme="Independence"] { background: rgba(255, 138, 101, 0.15); border-color: #ff8a65; color: #ff8a65; }
+    .theme-tag[data-theme="Social Reform"] { background: rgba(77, 182, 172, 0.15); border-color: #4db6ac; color: #4db6ac; }
+    .theme-tag[data-theme="Economics"] { background: rgba(255, 213, 79, 0.15); border-color: #ffd54f; color: #ffd54f; }
+    .theme-tag[data-theme="Education"] { background: rgba(149, 117, 205, 0.15); border-color: #9575cd; color: #9575cd; }
+    .theme-tag[data-theme="Health"] { background: rgba(244, 143, 177, 0.15); border-color: #f48fb1; color: #f48fb1; }
+    .theme-tag[data-theme="Law & Justice"] { background: rgba(229, 115, 115, 0.15); border-color: #e57373; color: #e57373; }
+    .theme-tag[data-theme="Unity"] { background: rgba(255, 167, 38, 0.15); border-color: #ffa726; color: #ffa726; }
+
+    .theme-tag:hover {
+      transform: translateY(-2px);
+      opacity: 0.8;
+    }
+
+    .theme-tag.active {
+      opacity: 1;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .theme-tag .count {
+      margin-left: 0.5rem;
+      opacity: 0.7;
+      font-size: 0.8rem;
+    }
+
+    /* Documents List */
+    .documents-list {
+      display: none;
+    }
+
+    .documents-list.visible {
+      display: block;
+    }
+
+    .document-card {
+      background: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 4px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .document-card:hover {
+      border-color: var(--color-accent-dim);
+      transform: translateX(4px);
+    }
+
+    .document-card .doc-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--color-text);
+      margin-bottom: 0.5rem;
+    }
+
+    .document-card .doc-meta {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 0.8rem;
+      color: var(--color-text-dim);
+      margin-bottom: 0.75rem;
+      font-family: var(--font-mono);
+    }
+
+    .document-card .doc-summary {
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: var(--color-text-dim);
+      font-style: italic;
+      padding-left: 1rem;
+      border-left: 2px solid var(--color-accent-dim);
+      margin-bottom: 0.75rem;
+    }
+
+    .document-card .doc-preview {
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: var(--color-text-dim);
+      display: none;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    .document-card.expanded .doc-preview {
+      display: block;
+      max-height: 600px;
+      overflow-y: auto;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 4px;
+      margin-top: 0.75rem;
+    }
+
+    .document-card .expand-btn {
+      font-size: 0.8rem;
+      color: var(--color-accent);
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    /* Scrollbar */
+    #sidebar::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    #sidebar::-webkit-scrollbar-track {
+      background: var(--color-bg-light);
+    }
+
+    #sidebar::-webkit-scrollbar-thumb {
+      background: var(--color-border);
+      border-radius: 4px;
+    }
+
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-size: 1rem;
+      color: var(--color-text-dim);
+    }
+
+    @media (max-width: 1024px) {
+      #container {
+        flex-direction: column;
+      }
+
+      #sidebar {
+        width: 100%;
+        height: 50vh;
+      }
+
+      #map-container {
+        width: 100%;
+        height: 50vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="loading">Loading Gandhi's letters...</div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Scrollama -->
+  <script src="https://unpkg.com/scrollama"></script>
+
+  <!-- Journey App -->
+  <script type="module" src="/src/journey_cinematic.js"></script>
+</body>
+</html>

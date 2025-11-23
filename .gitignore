@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.cache
+dist/
+public/data/radial_tree.json
+public/data/journey.json

@@ -1,0 +1,512 @@
+[
+  {
+    "location": "PORBANDAR",
+    "coordinates": {
+      "lat": 21.6417,
+      "lon": 69.6293,
+      "zoom": 12,
+      "label": "The Birthplace",
+      "narrative": "In Porbandar, on the coast of Gujarat, Mohandas Karamchand Gandhi was born on October 2, 1869.",
+      "phase": "Early Life",
+      "color": "#8c510a"
+    },
+    "doc_count": 38,
+    "documents": [
+      {
+        "title": "Speech At Parsi Rajakiya Mandal, Karachi",
+        "date": "01-04-1931",
+        "type": "SPEECH",
+        "snippet": "{1}, KARACHI {2} I did not suspect that my Parsi friends were so timid, but Sjt. Sidhwa has disillusioned me. Let me therefore reassure you that the Parsi community’s interests do not need to be safeguarded in any scheme of swaraj, in as much as the handful of men and women belonging to that adventu..."
+      },
+      {
+        "title": "Letter  To  Devchand  Parekh",
+        "date": "01-05-1926",
+        "type": "LETTER",
+        "snippet": "ASHRAM, SABARMATI, Saturday {1} BHAISHRI DEVCHANDBHAI, I have your letter. Do get a plan of the building{2} prepared and write to Thakore Saheb{3}. If we get his permission we can at least have the foundation laid. May we not use on this the funds collected for the Mansukhlal memorial? BAPU There is..."
+      },
+      {
+        "title": "Telegram To Nanji Kalidas",
+        "date": "01-06-1945",
+        "type": "TELEGRAM",
+        "snippet": "ExpressPANCHGANI, June 1, 1945 SHETH NANJI KALIDAS PORBANDAR PLEASE DO NOT SACRIFICE HEALTH FOR COMING HERE. SHANTABEHN{1} LOOKING AFTER PARTY. BAPU..."
+      },
+      {
+        "title": "Letter To Prabhashankar  Pattani",
+        "date": "01-08-1926",
+        "type": "LETTER",
+        "snippet": "T HE ASHRAM, SABARMATI , Sunday, Asadha Vad 8, August 1, 1926 DEAR FRIEND, I send with this a telegram for you received here. For a moment I thought of opening the envelope and relaying the message by telegram, but then I felt that a telegram from a person who did not know that you had already left..."
+      },
+      {
+        "title": "Letter To Ramabehn Joshi",
+        "date": "01-08-1931",
+        "type": "LETTER",
+        "snippet": "{1}, 1931 CHI. RAMA, I got your letter. No one should say to anybody, “Go to Palanpur or Porbandar.” Prema’s saying that, however, is of no significance. She has an irritable temper and you should not take seriously what she may say in anger. In the Ashram, all of us are equals, and no one can ask a..."
+      }
+    ],
+    "key_document": {
+      "title": "Speech At Parsi Rajakiya Mandal, Karachi",
+      "date": "01-04-1931",
+      "type": "SPEECH",
+      "snippet": "{1}, KARACHI {2} I did not suspect that my Parsi friends were so timid, but Sjt. Sidhwa has disillusioned me. Let me therefore reassure you that the Parsi community’s interests do not need to be safeguarded in any scheme of swaraj, in as much as the handful of men and women belonging to that adventu..."
+    }
+  },
+  {
+    "location": "RAJKOT",
+    "coordinates": {
+      "lat": 22.3039,
+      "lon": 70.8022,
+      "zoom": 12,
+      "label": "Early Education",
+      "narrative": "At Alfred High School in Rajkot, the young Gandhi received his formative education, showing early signs of the determination that would define his life.",
+      "phase": "Early Life",
+      "color": "#8c510a"
+    },
+    "doc_count": 482,
+    "documents": [
+      {
+        "title": "Letter To Vasumati Pandit",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "CHI. VASUMATI, You must be keeping good health. Has that stupid one fallen in line? Are the studies proceding? What is Shanta doing? I shall not write more for the present. Blessings from BAPU Ba has returned from Rajkot...."
+      },
+      {
+        "title": "Letter To Bhau Panse",
+        "date": "01-02-1933",
+        "type": "LETTER",
+        "snippet": "February 1, 1933 CHI. BHAU, How did you get fever? I hope you are all right now. If your health does not improve in Rajkot, you will come here. We shall then think about a fast. In Rajkot you may eat the food which you get in the normal course, that is, rotli{1} made from wheat flour, ghee, milk, gr..."
+      },
+      {
+        "title": "Reminiscences Of Kathiawar - I",
+        "date": "01-03-1925",
+        "type": "ARTICLE",
+        "snippet": "PEOPLE’S REPRESENTATIVE ASSEMBLY The memories of my visit to Kathiawar, which lasted from the 15th to 21st , will ever remain fresh in my mind. I was delighted to see the independence displayed by the Thakore Saheb of Rajkot. I had my misgivings about the usefulness of the People’s Representative As..."
+      },
+      {
+        "title": "A Telegram",
+        "date": "01-03-1939",
+        "type": "TELEGRAM",
+        "snippet": "{1} RAJKOT, March 1, 1939 I AM UNABLE TO SAY ANYTHING. I AM MAKING DESPERATE EFFORTS. POSTPONE THE OPENING DATE OF THE EXHIBITION TO MARCH SIXTH.{2} INFORM SETH GOVINDDAS...."
+      },
+      {
+        "title": "Interview To Associated Press Of India",
+        "date": "01-03-1939",
+        "type": "INTERVIEW",
+        "snippet": "{1} RAJKOT, March 1, 1939 In the morning, I saw peasants from Halenda Khari, Hodthali and several other places who had complaints to make about the delivery of the State’s portion of the crops and against lathi charges and the like. There were nearly one hundred and fifty of them including about twe..."
+      }
+    ],
+    "key_document": {
+      "title": "Letter To Vasumati Pandit",
+      "date": "",
+      "type": "LETTER",
+      "snippet": "CHI. VASUMATI, You must be keeping good health. Has that stupid one fallen in line? Are the studies proceding? What is Shanta doing? I shall not write more for the present. Blessings from BAPU Ba has returned from Rajkot...."
+    }
+  },
+  {
+    "location": "LONDON",
+    "coordinates": {
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "zoom": 11,
+      "label": "Law Studies (1888-1891)",
+      "narrative": "At age 19, Gandhi sailed to London to study law at University College London. This was his first encounter with Western civilization.",
+      "phase": "London Years",
+      "color": "#bf812d"
+    },
+    "doc_count": 734,
+    "documents": [
+      {
+        "title": "The Deputation'S Voyage-I",
+        "date": "",
+        "type": "ARTICLE",
+        "snippet": "LONDON, November 3, 1906 SHYAMJI KRISHNAVARMA AND INDIA HOUSE As I promised in my last despatch, I now write about Mr. Shyamji Krishnavarma and India House. Mr. Shyamji Krishnavarma is a barrister from Bombay, and a son-in-law of Mr. Chhabildas Bhansali. As hisknowledge of Sanskrit was of a very hig..."
+      },
+      {
+        "title": "Letter To H.S.L. Polak",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "DEAR HENRY, This will be presented to you by Kamalnayan Bajaj, the eldest son of Jamnalalji. However much we may fight Great Britain, London is increasingly becoming out ancient Kashi. Kamalnayan is no exception. I have advised him to take up a course in the London School of Economics. Perhaps. . .{..."
+      },
+      {
+        "title": "Interview To The Hindustan Timess",
+        "date": "01-01-1935",
+        "type": "INTERVIEW",
+        "snippet": "DELHI, January 1, 1935 It is true that I enjoy friendly relations with General Smuts.{1} We even met in London during the Second Round Table Conference and had discussions about India’s goal. It is true also that he had advised acceptance of the proposals adumbrated in the White Paper, as distinguis..."
+      },
+      {
+        "title": "Letter To Viceroy",
+        "date": "01-02-1931",
+        "type": "LETTER",
+        "snippet": "ANAND BHAWAN, ALLAHABAD, February 1, 1931 H.E. THE VICEROY, DELHI DEAR FRIEND, You have made a public appeal{1} to me for co-operation in connec-tion with the further work of the recently held Conference in London and ascribed to me a belief in the sincerity of British promises and declara-tions. I..."
+      },
+      {
+        "title": "Cable To Agatha Harrison",
+        "date": "01-04-1941",
+        "type": "CABLE",
+        "snippet": "WARDHAGANJ, April 1, 1941 AGATHA HARRISON CRANBOURNE COURT ALBERT BRIDGE LONDON ALWAYS READY COSULTATION. GANDHI From a photostat: G.N. 1520..."
+      }
+    ],
+    "key_document": {
+      "title": "The Deputation'S Voyage-I",
+      "date": "",
+      "type": "ARTICLE",
+      "snippet": "LONDON, November 3, 1906 SHYAMJI KRISHNAVARMA AND INDIA HOUSE As I promised in my last despatch, I now write about Mr. Shyamji Krishnavarma and India House. Mr. Shyamji Krishnavarma is a barrister from Bombay, and a son-in-law of Mr. Chhabildas Bhansali. As hisknowledge of Sanskrit was of a very hig..."
+    }
+  },
+  {
+    "location": "DURBAN",
+    "coordinates": {
+      "lat": -29.8587,
+      "lon": 31.0218,
+      "zoom": 10,
+      "label": "South Africa - The Awakening",
+      "narrative": "In 1893, Gandhi arrived in Durban as a lawyer. A train incident at Pietermaritzburg station would change everything - thrown out of a first-class compartment for being Indian.",
+      "phase": "South Africa",
+      "color": "#dfc27d"
+    },
+    "doc_count": 519,
+    "documents": [
+      {
+        "title": "Letter To Virji Mehta",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "Shravan Sud 12 DEAR VIRJI, Chi. Jeki refuses to come. I am giving her the permission. But if you and Chi. Jayashankar wish to understand her condition, it is your duty to come here and spend a couple of days. Business should not come in the way of true love. You should go to Durban at night if it is..."
+      },
+      {
+        "title": "Letter To Khooshal Sookha Mistry",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "BROTHER KHOOSHAL SOOKHA MISTRY, Received your letter. I am doing my bit. There is another letter that Lallu Jogi is not in a position to pay instalments. I have wirtten again. M. K. GANDHI MR. KHOOSHAL SOOKHA 182 QUEENS STREET DURBAN..."
+      },
+      {
+        "title": "Reply To Welcome Address At Durban",
+        "date": "01-01-1907",
+        "type": "REPLY",
+        "snippet": "A meeting of the Natal Indian Congress was held at Durban on Tuesday, January 1, 1907, to present an address to Gandhiji and H. O. Ally, with Dawad Mahomed in the chair. Gandhiji replied as follows: I do not propose to speak at length, as it is already late. Both Mr. Ally and myself are very gratefu..."
+      },
+      {
+        "title": "Diary,",
+        "date": "01-01-1912",
+        "type": "MEMOIR",
+        "snippet": "{1} JANUARY 15, MONDAY, POSH VAD 11 Medh, Manilal, Pragji returned Trip ticket book1.6.3 Stamps0.2.0 ________ Bal3.3. 10 JANUARY 16, TUESDAY Went to town—Porter met —Returned—Plague in Durban. Leather0.7.6 Paper0.0.3 Bal2. 16.1 JANUARY 17, WEDNESDAY Went to town—Met the Committee on Crematorium near..."
+      },
+      {
+        "title": "Letter To Marshall Campbell",
+        "date": "01-01-1914",
+        "type": "LETTER",
+        "snippet": "110, FIELD STREET, DURBAN, Januay 1, 1914 DEAR MR. MARSHALL CAMPBELL, I am much obliged to you for your letter of the 30th ultimo, and for frankly expressing your feelings. I see that recent events have caused a breach between my friends and myself which must be left to time and future uniform condu..."
+      }
+    ],
+    "key_document": {
+      "title": "Letter To Virji Mehta",
+      "date": "",
+      "type": "LETTER",
+      "snippet": "Shravan Sud 12 DEAR VIRJI, Chi. Jeki refuses to come. I am giving her the permission. But if you and Chi. Jayashankar wish to understand her condition, it is your duty to come here and spend a couple of days. Business should not come in the way of true love. You should go to Durban at night if it is..."
+    }
+  },
+  {
+    "location": "JOHANNESBURG",
+    "coordinates": {
+      "lat": -26.2041,
+      "lon": 28.0473,
+      "zoom": 11,
+      "label": "Satyagraha Born",
+      "narrative": "In Johannesburg, Gandhi developed the philosophy of Satyagraha - 'truth-force' - a revolutionary form of nonviolent resistance that would inspire movements worldwide.",
+      "phase": "South Africa",
+      "color": "#dfc27d"
+    },
+    "doc_count": 959,
+    "documents": [
+      {
+        "title": "Letter To General Smuts",
+        "date": "01-02-1908",
+        "type": "LETTER",
+        "snippet": "{1} JOHANNESBURG, February 1, 1908 DEAR MR. SMUTS, After the conversation that Mr. Chamney had with me on Thursday, I sought an interview with you again, and Mr. Lane{2} told me thatI would be able to see you before I went. I was not, however, fortunate enough to do so. The conversation with Mr. Cha..."
+      },
+      {
+        "title": "Letter To The Vogls",
+        "date": "01-02-1908",
+        "type": "LETTER",
+        "snippet": "JOHANNESBURG, February 1, 1908 DEAR MR. AND MRS. VOGL{1}, Kindly accept my thanks for your congratulations{2}. I do indeed believe that your good wishes are an expression of the Heart and not merely a formal one. Mahomed Khan{3} told me yesterday that Mrs. Vogl was keeping indifferent health. I was..."
+      },
+      {
+        "title": "Johannesburg",
+        "date": "01-02-1911",
+        "type": "ARTICLE",
+        "snippet": "Wednesday IMMIGRATION BILL It is reported by The Star’s correspondent that this Bill is being drafted by the Government. He says it will be quite an important Bill, which will reveal the Asiatic policy of the Government. The discussion on Mr. Stallard’s resolution{1} in the Transvaal Council suggest..."
+      },
+      {
+        "title": "New Immigration Bill",
+        "date": "01-03-1911",
+        "type": "ARTICLE",
+        "snippet": "{1} JOHANNESBURG, Wednesday, March 1, 1911 The long-expected Immigration Bill{2} has now been received. It is very complicated and comprehensive. I simply give what suggests itself to me as the meaning: (1) The Asiatic Act 2 of 1907 is to be repealed, save in so far as it protects the rights of mino..."
+      },
+      {
+        "title": "Johannesburg",
+        "date": "01-03-1911",
+        "type": "ARTICLE",
+        "snippet": "Wednesday NEW BILL At last the new Bill{1} has been published. There is no time to give a translation. It is not even possible just yet to comment on it at length. But I see that it will have the following consequences: (1) Act No. 2 will be repealed, save in so far as it protects the rights of Asia..."
+      }
+    ],
+    "key_document": {
+      "title": "Letter To General Smuts",
+      "date": "01-02-1908",
+      "type": "LETTER",
+      "snippet": "{1} JOHANNESBURG, February 1, 1908 DEAR MR. SMUTS, After the conversation that Mr. Chamney had with me on Thursday, I sought an interview with you again, and Mr. Lane{2} told me thatI would be able to see you before I went. I was not, however, fortunate enough to do so. The conversation with Mr. Cha..."
+    }
+  },
+  {
+    "location": "SABARMATI",
+    "coordinates": {
+      "lat": 23.0617,
+      "lon": 72.582,
+      "zoom": 13,
+      "label": "Sabarmati Ashram (1917-1930)",
+      "narrative": "On the banks of the Sabarmati River in Ahmedabad, Gandhi established his ashram - a spiritual community that became the headquarters of India's freedom movement.",
+      "phase": "Return to India",
+      "color": "#35978f"
+    },
+    "doc_count": 2603,
+    "documents": [
+      {
+        "title": "Letter To Mathuradas Trikumji",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "ASHRAM, SABARMATI, Maha Sud 13 {1} CHI. MATHURADAS, My health had suffered some upset even while I was there. I had started having some swelling, which persists. I must say it is somewhat reduced. I hope you are getting on with the work for the Hindi Sahitya Sammelan. There is no reply from Prof. Ka..."
+      },
+      {
+        "title": "Notes",
+        "date": "",
+        "type": "NOTE",
+        "snippet": "THE INDIAN HERCULES AND BRAHMINS I had a visit by appointment on the 8th instant during my brief stay at Sabarmati at 4 o’clock in the morning from the Indian Hercules, as Professor Rama Murti delights to describe himself. He engaged me in an entertaining conversation on the wickedness of modern Bra..."
+      },
+      {
+        "title": "Letter To Shankerlal G. Banker",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "SABARMATI, Jeth Sud 8 BHAISHREE SHANKERLAL, I am sending herewith the statement of income and expenditure on construction work. You and Jamnadas have not yet reached the amount you had promised. Can you do so in the near future? Is it possible to raise some more money as you had said? I have run sho..."
+      },
+      {
+        "title": "Letter To Manu H. Gandhi",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "SATYAGRAHA ASHRAM, SABARMATI, Wednesday CHI. MANU, I have your letter. Improve your handwriting still further. Your letter pleases Ba more than me. Take care of your health. Pay attention to your studies. Do not make noise during prayers and in the kitchen. Ba is all right now. Blessings from BAPU..."
+      },
+      {
+        "title": "Letter To Mr. Khambatta",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "SABARMATI DEAR MR. KHAMBATTA, I thank you for the Rs. 1,000 note and the sentiments expressed in your letter. I am not sure that I am justified in accepting your contribution which is evidently not out of an overflowing purse. But I shall hope that you have not put yourself out for sending the donat..."
+      }
+    ],
+    "key_document": {
+      "title": "Letter To Mathuradas Trikumji",
+      "date": "",
+      "type": "LETTER",
+      "snippet": "ASHRAM, SABARMATI, Maha Sud 13 {1} CHI. MATHURADAS, My health had suffered some upset even while I was there. I had started having some swelling, which persists. I must say it is somewhat reduced. I hope you are getting on with the work for the Hindi Sahitya Sammelan. There is no reply from Prof. Ka..."
+    }
+  },
+  {
+    "location": "CHAMPARAN",
+    "coordinates": {
+      "lat": 26.6447,
+      "lon": 84.8494,
+      "zoom": 11,
+      "label": "Champaran Satyagraha (1917)",
+      "narrative": "In Champaran, Bihar, Gandhi led his first major campaign in India - fighting for the rights of indigo farmers oppressed by British landlords.",
+      "phase": "Independence Movement",
+      "color": "#01665e"
+    },
+    "doc_count": 95,
+    "documents": [
+      {
+        "title": "Letter To Bipin Bihari Verma",
+        "date": "01-05-1940",
+        "type": "LETTER",
+        "snippet": "May 1, 1940 BHAI, BIPIN, Be as you are. That would be sadhana for you. Blessings from BAPU SHRI BIPIN BABU MANAPUR BETTIAH, CHAMPARAN..."
+      },
+      {
+        "title": "Letter To V. S. Srinivasa Sastri",
+        "date": "01-06-1917",
+        "type": "LETTER",
+        "snippet": "MOTIHARI, CHAMPARAN, June DEAR MR. SHASTRIAR, I wonder if the enclosed{1} has reached from another source. I know you would like it. Hoping you are keeping well. Yours sincerely, M. K. GANDHI From a photostat of the original in Gandhiji’s hand: G.N. 6296..."
+      },
+      {
+        "title": "Circular Letter For Funds For Ashram",
+        "date": "01-07-1917",
+        "type": "LETTER",
+        "snippet": "FOR PRIVATE CIRCULATION ONLY MOTIHARI, CHAMPARAN, Ashadh Sud 11, Samvat 1973 {1} DEAR FRIEND, All these days the expenses on the Satyagraha Ashram and its various activities could be met entirely from help voluntarily given by some friends; but these activities have now expanded so much that it does..."
+      },
+      {
+        "title": "Letter To W. B. Heycock",
+        "date": "02-05-1917",
+        "type": "LETTER",
+        "snippet": "MOTIHARI, May 2, 1917 DEAR MR. HEYCOCK, I came to Motihari last night. You may be aware that I am to meet the planters this morning at 10.45. You will please let me know if you want me. Yours sincerely, M. K. GANDHI From the original in Gandhiji’s hand in the National Archives of India; also Select..."
+      },
+      {
+        "title": "Letter To Esther Faering",
+        "date": "02-05-1917",
+        "type": "LETTER",
+        "snippet": "MOTIHARI, CHAMPARAN, May 2, 1917 DEAR ESTHER, I have just received your letter from Ahmedabad. To say ‘I thank you’ would be in your case an empty form. Your interest is much deeper. My experiences here give the greatest joy. The suffering I see around me gives me equal pain. I know that you feel fo..."
+      }
+    ],
+    "key_document": {
+      "title": "Letter To Bipin Bihari Verma",
+      "date": "01-05-1940",
+      "type": "LETTER",
+      "snippet": "May 1, 1940 BHAI, BIPIN, Be as you are. That would be sadhana for you. Blessings from BAPU SHRI BIPIN BABU MANAPUR BETTIAH, CHAMPARAN..."
+    }
+  },
+  {
+    "location": "DANDI",
+    "coordinates": {
+      "lat": 20.888,
+      "lon": 72.8009,
+      "zoom": 13,
+      "label": "The Salt March (1930)",
+      "narrative": "From March 12 to April 6, 1930, Gandhi led a 240-mile march to Dandi to produce salt from seawater, defying British salt laws. This act of civil disobedience sparked a nationwide movement.",
+      "phase": "Salt Satyagraha",
+      "color": "#5ab4ac"
+    },
+    "doc_count": 73,
+    "documents": [
+      {
+        "title": "Note  To  Vallabhbhai  Patel,  Rajendra  Prasad  And Jagjivanram",
+        "date": "02-09-1946",
+        "type": "NOTE",
+        "snippet": "RAJENDRA PRASAD AND JAGJIVAN RAM{1} VALMIKI MANDIR, NEW DELHI, September 2, 1946 Since after the prayer I have been thinking only about you people. Abolish salt tax, remember Dandi March, bring together Hindus and Muslims, remove untouchability, adopt khadi. Bapuna Patro—2: Sardar Vallabhbhaine, p...."
+      },
+      {
+        "title": "Speech At Prayer Meeting, Vanjh",
+        "date": "03-04-1930",
+        "type": "SPEECH",
+        "snippet": "{1} April 3, 1930 Only two days now remain before we conclude this march. We shall then set to work. A large number of people will be present. I told you about the scarcity of water in Dandi. We shall have to use water as if it was milk, like the Jain sadhu who lived in the forest. I must also tell..."
+      },
+      {
+        "title": "Speech In Vijalpore",
+        "date": "04-04-1930",
+        "type": "SPEECH",
+        "snippet": "April 4, 1930 After this meeting is over, I have to make two more speeches before I reach my destination. I shall make a speech at Dandi if I have to. Forty-one Headmen have handed in their resignations and the President of the Taluka Committee has congratulated them. Besides the 47, I have been inf..."
+      },
+      {
+        "title": "Statement To Associated Press",
+        "date": "05-04-1930",
+        "type": "STATEMENT",
+        "snippet": "DANDI, April 5, 1930 God be thanked for what may be termed the happy ending of the first stage in this, for me at least, the final struggle for freedom. I cannot withhold my compliments from the Government for the policy of complete non-interference adopted by them throughout the march. After the gr..."
+      },
+      {
+        "title": "A Message",
+        "date": "05-04-1930",
+        "type": "MESSAGE",
+        "snippet": "DANDI, April 5, 1930 I want world sympathy in this battle of Right against Might. M. K. GANDHI..."
+      }
+    ],
+    "key_document": {
+      "title": "Note  To  Vallabhbhai  Patel,  Rajendra  Prasad  And Jagjivanram",
+      "date": "02-09-1946",
+      "type": "NOTE",
+      "snippet": "RAJENDRA PRASAD AND JAGJIVAN RAM{1} VALMIKI MANDIR, NEW DELHI, September 2, 1946 Since after the prayer I have been thinking only about you people. Abolish salt tax, remember Dandi March, bring together Hindus and Muslims, remove untouchability, adopt khadi. Bapuna Patro—2: Sardar Vallabhbhaine, p...."
+    }
+  },
+  {
+    "location": "WARDHA",
+    "coordinates": {
+      "lat": 20.7453,
+      "lon": 78.6022,
+      "zoom": 12,
+      "label": "Sevagram Ashram (1936-1948)",
+      "narrative": "In his later years, Gandhi moved to Sevagram near Wardha, living in extreme simplicity while continuing to write and organize the independence movement.",
+      "phase": "Final Years",
+      "color": "#c7eae5"
+    },
+    "doc_count": 3249,
+    "documents": [
+      {
+        "title": "All-India Village Industries Association Proceedings",
+        "date": "",
+        "type": "ARTICLE",
+        "snippet": "PROCEEDINGS The following is an abstract{1} of the proceedings of the Board of Management that met at Wardha on 1st to 4th February. It includes vital amendments of the constitution. The figures before paragraphs signify sections of the constitution...."
+      },
+      {
+        "title": "Letter To Krause",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "SEGAON, WARDHA, C.P., March 2, 1937 MY DEAR KRAUSE, You are kind—giving me so many letters. I shall never forgive myself for my letter to you in Bombay not being in time. I see that you cannot come to Wardha. I shall await your fuller letter giving me your impressions. I will not discuss the prelimi..."
+      },
+      {
+        "title": "Letter To Rajaram R. Bhole",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "SEGAON, WARDHA, March 5, 1937 DEAR RAJARAM, I was glad to have your letter and to notice that you stood the strain of the election campaign without any physical ill effect. I hope that you will make the wisest use of the position you have obtained. Yours sincerely, BAPU SHRI RAJARAM BHOLE MINERVA TH..."
+      },
+      {
+        "title": "Letter To Rani Vidyavati",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "SEGAON, WARDHA, March 7, 1937 CHI. VIDYA, I have your letter. Since Dr. Roy knows you now, why do you need a letter from me at all? Write to him introducing yourself and go when he is agreeable. Write to me if there is no reply from Dr. Roy. I am confident that he will answer your letter. Blessings..."
+      },
+      {
+        "title": "Letter To Nirmla Nehru",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "SEGAON, WARDHA, July 10, 1937 CHI. NIMU, Ramdas must have left{1}. You have done well to ask him to go. As for the result, it is in God’s hands alone. From the letter I have from him, it appears that you wish to settle dawn there only. He also says in his letter that Navanit will not be willing to b..."
+      }
+    ],
+    "key_document": {
+      "title": "All-India Village Industries Association Proceedings",
+      "date": "",
+      "type": "ARTICLE",
+      "snippet": "PROCEEDINGS The following is an abstract{1} of the proceedings of the Board of Management that met at Wardha on 1st to 4th February. It includes vital amendments of the constitution. The figures before paragraphs signify sections of the constitution...."
+    }
+  },
+  {
+    "location": "DELHI",
+    "coordinates": {
+      "lat": 28.6139,
+      "lon": 77.209,
+      "zoom": 11,
+      "label": "The Final Days",
+      "narrative": "In Delhi, Gandhi witnessed both the triumph of independence and the tragedy of partition. On January 30, 1948, he was assassinated while walking to a prayer meeting.",
+      "phase": "Final Years",
+      "color": "#80cdc1"
+    },
+    "doc_count": 2774,
+    "documents": [
+      {
+        "title": "Letter To Jamnalal Bajaj",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "DELHI , January 7, 1935 CHI. JAMNALAL, The Delhi cold, instead of helping me to work harder, makes me do less work when so much work has piled up. What you say about Abhyankar is indeed what has happened. His loss is bound to be felt. It seems that your ear is taking quite a lot of time to be fully..."
+      },
+      {
+        "title": "Discussion With Leaders Of Jamiat-Ul-Ulema-I-Hind",
+        "date": "",
+        "type": "DISCUSSION",
+        "snippet": "JAMAT-UL-ULEMA-I-HIND DELHI, {1} With regard to the first question{2}, Gandhiji said that he would give his attention to that. Reverting to the second question{3}he said: There is no cause dearer to my life than the cause of Hindu- Muslim unity and since. I have taken up this cause I have staked my..."
+      },
+      {
+        "title": "Letter To Pyarelal",
+        "date": "",
+        "type": "LETTER",
+        "snippet": "CHI. PYARELAL, I have written to you after great thought. Keep my last postcard with you. We shall consider further in Delhi. So, keep yourself ready. About the mail, you can consult Sushila and then decide. It seems to me we shall have to come here from Delhi. The rest is up to God. Blessings from..."
+      },
+      {
+        "title": "Telegram To Kshtish Chandra Das Gupta",
+        "date": "",
+        "type": "TELEGRAM",
+        "snippet": "DELHI KSHITISH KHADI PRATISTHAN SODEPUR ESS. DELIGHTED COME HERE REPLY. GANDHI..."
+      },
+      {
+        "title": "Telegram To Essop Moosa",
+        "date": "",
+        "type": "TELEGRAM",
+        "snippet": "BHANGI COLONY, READING ROAD, NEW DELHI ESSOP MOOSA PRETORIA REMEMBER WELL HAJEE SAHEB. MY CONDOLENCES FAMILY. GANDHI From a copy: Pyarelal Papers. Nehru Memorial Museum and Library. Courtesy: Beladevi Nayyar and Dr. Sushila Nayyar..."
+      }
+    ],
+    "key_document": {
+      "title": "Letter To Jamnalal Bajaj",
+      "date": "",
+      "type": "LETTER",
+      "snippet": "DELHI , January 7, 1935 CHI. JAMNALAL, The Delhi cold, instead of helping me to work harder, makes me do less work when so much work has piled up. What you say about Abhyankar is indeed what has happened. His loss is bound to be felt. It seems that your ear is taking quite a lot of time to be fully..."
+    }
+  }
+]

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gandhi Knowledge Graph - Interactive Visualizations</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@400;500;600&700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --color-primary: #06B6D4;
+      --color-bg: #0A1628;
+      --color-text: #F1F5F9;
+      --color-text-light: #94A3B8;
+      --font-heading: 'Crimson Text', serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--color-bg);
+      color: var(--color-text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      width: 100%;
+    }
+
+    h1 {
+      font-family: var(--font-heading);
+      font-size: 4rem;
+      color: var(--color-primary);
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1.3rem;
+      color: var(--color-text-light);
+      margin-bottom: 4rem;
+    }
+
+    .viz-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .viz-card {
+      background: rgba(30, 41, 59, 0.5);
+      border-radius: 16px;
+      padding: 2rem;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .viz-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--color-primary);
+      background: rgba(30, 41, 59, 0.8);
+    }
+
+    .viz-card h2 {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      color: var(--color-primary);
+      margin-bottom: 1rem;
+    }
+
+    .viz-card p {
+      line-height: 1.6;
+      color: var(--color-text-light);
+      margin-bottom: 1.5rem;
+    }
+
+    .viz-card .features {
+      list-style: none;
+      margin: 1rem 0;
+    }
+
+    .viz-card .features li {
+      padding: 0.5rem 0;
+      color: var(--color-text);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .viz-card .features li:before {
+      content: "→";
+      color: var(--color-primary);
+      font-weight: bold;
+    }
+
+    .cta {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--color-primary);
+      color: white;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin-top: 1rem;
+    }
+
+    .viz-card:hover .cta {
+      transform: translateX(5px);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      margin: 3rem 0;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-family: var(--font-heading);
+      font-size: 3rem;
+      color: var(--color-primary);
+      display: block;
+    }
+
+    .stat-label {
+      color: var(--color-text-light);
+      margin-top: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      .viz-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .stats {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Gandhi Knowledge Graph</h1>
+    <p class="subtitle">Explore 45,458 documents from Mahatma Gandhi's collected works (1884-1929)</p>
+
+    <div class="stats">
+      <div>
+        <span class="stat-value">45,458</span>
+        <div class="stat-label">Historical Documents</div>
+      </div>
+      <div>
+        <span class="stat-value">1,076</span>
+        <div class="stat-label">Geolocated Writings</div>
+      </div>
+      <div>
+        <span class="stat-value">22</span>
+        <div class="stat-label">Locations Worldwide</div>
+      </div>
+    </div>
+
+    <div class="viz-grid">
+      <a href="/journey.html" class="viz-card">
+        <h2>📍 Letters Across Time & Place</h2>
+        <p>A scrollytelling journey through Gandhi's letters organized by geographic location and time period.</p>
+        <ul class="features">
+          <li>45,046 letters and writings (1884-1948)</li>
+          <li>23 locations with interactive map</li>
+          <li>12 theme categories with pastel colors</li>
+          <li>5-year timeline slider for filtering</li>
+          <li>Hierarchical exploration: Location → Theme → Document</li>
+        </ul>
+        <span class="cta">Begin the Journey →</span>
+      </a>
+
+      <a href="/radial_tree.html" class="viz-card">
+        <h2>🌳 Radial Cluster Tree</h2>
+        <p>Interactive radial tree visualization organizing all documents by thematic categories.</p>
+        <ul class="features">
+          <li>6 major theme categories</li>
+          <li>15 individual themes</li>
+          <li>45,458 total documents</li>
+          <li>Click to explore nodes and documents</li>
+          <li>Zoom and pan for detailed exploration</li>
+        </ul>
+        <span class="cta">Explore Themes →</span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
